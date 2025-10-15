@@ -1,0 +1,33 @@
+Go
+bin/
+vendor/
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+IDE
+.vscode/
+.idea/
+
+OS
+.DS_Store
+Thumbs.db
+
+Build artifacts
+app
+itinerary-server
+
+Env and secrets
+.env
+.env.*
+
+Logs
+*.log
+logs/
+
+Runtime uploads/cache
+static/uploads/
