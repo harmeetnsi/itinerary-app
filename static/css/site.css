@@ -84,3 +84,15 @@ main{padding:28px 0}
   .hero h1{font-size:30px}
   .hero p{font-size:16px}
 }
+
+/* Itinerary page add-ons */
+.hero--itinerary .hero-content h1 { font-size: 2.25rem; }
+.jump-to { position: sticky; top: 0; background: #fff; border-bottom: 1px solid #eee; z-index: 10; }
+.jump-to .container { display: flex; gap: 1rem; overflow-x: auto; padding: 0.75rem 1rem; }
+.highlights-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 0.75rem; padding-left: 1rem; }
+.itinerary-detail .day { padding: 1rem 0; border-bottom: 1px dotted #ddd; }
+.other-tours .card-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 1rem; }
+.other-tours .card { text-decoration: none; color: inherit; border: 1px solid #eee; border-radius: 8px; overflow: hidden; background: #fff; }
+.other-tours img { width: 100%; height: 160px; object-fit: cover; display: block; }
+.specialist .specialist-card { display: flex; gap: 1rem; align-items: center; padding: 1rem; border: 1px solid #eee; border-radius: 8px; background: #fafafa; }
+.specialist .avatar { width: 72px; height: 72px; border-radius: 50%; object-fit: cover; }

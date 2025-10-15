@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>{{if .SEO.MetaTitle}}{{.SEO.MetaTitle}}{{else}}{{.Title}} | Jetset Travel{{end}}</title>
+  <meta name="description" content="{{.SEO.MetaDescription}}">
+  <link rel="icon" href="/static/logo/jetset-travel-logo-512.png">
+  <link rel="stylesheet" href="/static/css/site.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="/">
+        <img src="/static/logo/jetset-travel-logo-512.png" alt="Jetset Travel" class="brand-logo">
+        <span class="brand-text">Jetset Travel</span>
+      </a>
+      <nav class="site-nav">
+        <a href="/itineraries/{{.Slug}}#highlights">Highlights</a>
+        <a href="/itineraries/{{.Slug}}#details">Itinerary</a>
+        <a href="/itineraries/{{.Slug}}#other-tours">Other tours</a>
+        <a href="/itineraries/{{.Slug}}#specialist">Speak to specialist</a>
+        <a href="/itineraries/{{.Slug}}#why-us">Why us</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero hero--itinerary">
+    <video class="hero-video" autoplay muted loop playsinline poster="{{.Hero.Poster}}">
+      <source src="{{.Hero.Video}}" type="video/mp4">
+    </video>
+    <div class="hero-overlay"></div>
+    <div class="hero-content container">
+      <h1>{{.Title}}</h1>
+      <p>{{.DurationDays}} days • Private, customizable</p>
+      <div class="hero-ctas">
+        <a class="btn btn-primary" href="#details">View day-by-day</a>
+        <a class="btn btn-outline" href="https://wa.me/{{.Specialist.Whatsapp}}?text={{urlquery (printf "Hi, I’m interested in %s" .Title)}}">WhatsApp specialist</a>
+      </div>
+    </div>
+  </section>
+
+  <nav class="jump-to">
+    <div class="container">
+      <a href="#highlights">Tour highlights</a>
+      <a href="#details">Itinerary in detail</a>
+      <a href="#other-tours">Other tours</a>
+      <a href="#specialist">Speak to specialist</a>
+      <a href="#why-us">Why travel with us</a>
+    </div>
+  </nav>
+
+  <main class="container">
+    <section id="highlights" class="highlights">
+      <h2>Tour highlights</h2>
+      <ul class="highlights-grid">
+        {{range .Highlights}}
+        <li>{{.}}</li>
+        {{end}}
+      </ul>
+    </section>
+
+    <section id="details" class="itinerary-detail">
+      <h2>Itinerary in detail</h2>
+      {{range .Days}}
+      <article class="day">
+        <h3>Day {{.Day}} — {{.Title}}</h3>
+        <p>{{.Summary}}</p>
+      </article>
+      {{end}}
+    </section>
+
+    <section id="other-tours" class="other-tours">
+      <h2>Other tours you may be interested in</h2>
+      <div class="card-grid">
+        {{range .OtherTours}}
+        <a class="card" href="/itineraries/{{.Slug}}">
+          <img src="{{.Image}}" alt="{{.Title}}">
+          <div class="card-body">
+            <h3>{{.Title}}</h3>
+            <p>{{.DurationDays}} days</p>
+          </div>
+        </a>
+        {{end}}
+      </div>
+    </section>
+
+    <section id="specialist" class="specialist">
+      <div class="specialist-card">
+        <img class="avatar" src="{{.Specialist.Photo}}" alt="{{.Specialist.Name}}">
+        <div>
+          <h3>Speak to a specialist</h3>
+          <p>{{.Specialist.Name}} — {{.Specialist.Role}}</p>
+          <a class="btn btn-primary" href="https://wa.me/{{.Specialist.Whatsapp}}?text={{urlquery (printf "Hi, I’m interested in %s" .Title)}}">WhatsApp now</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="why-us" class="why-us">
+      <h2>Why travel with us</h2>
+      <ul>
+        {{range .WhyUs}}<li>{{.}}</li>{{end}}
+      </ul>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© 2025 Jetset Travel</p>
+    </div>
+  </footer>
+</body>
+</html>
