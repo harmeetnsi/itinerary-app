@@ -1,0 +1,49 @@
+{
+  "title": "Ghats, Ganga & Wildlife",
+  "slug": "ghats-ganga-wildlife",
+  "duration_days": 12,
+  "hero": {
+    "video": "/static/itineraries/ghats-ganga-wildlife/hero.mp4",
+    "poster": "/static/itineraries/ghats-ganga-wildlife/hero.jpg"
+  },
+  "highlights": [
+    "Old & New Delhi city tour",
+    "Amber Fort, City Palace, Hawa Mahal in Jaipur",
+    "Ranthambhore safaris and fort",
+    "Taj Mahal at sunset and Agra Fort",
+    "Fatehpur Sikri stopover",
+    "Orchha heritage walk",
+    "Khajuraho temples + Sound & Light show",
+    "Varanasi sunrise boat + Ganga Aarti + Sarnath"
+  ],
+  "days": [
+    { "day": 1, "title": "Arrive New Delhi", "summary": "Arrival, meet and assist, check-in, trip documents, overnight in Delhi." },
+    { "day": 2, "title": "Explore Old & New Delhi", "summary": "Red Fort (outside), Jama Masjid, Raj Ghat, Chandni Chowk walk; Qutab Minar, India Gate, drive past President’s House & Parliament." },
+    { "day": 3, "title": "Drive Delhi → Jaipur (260 km / 5–6 hrs)", "summary": "Leisurely drive to the Pink City. Evening at leisure. Overnight in Jaipur." },
+    { "day": 4, "title": "Jaipur: Forts, Palaces and Observatory", "summary": "Morning Amber Fort (Temple of Kali, Hall of Victory). Afternoon Jantar Mantar, City Palace, Hawa Mahal. Evening stroll and shopping." },
+    { "day": 5, "title": "Jaipur → Ranthambhore", "summary": "Drive through countryside. Visit Ranthambhore Fort; lakes, temples, sweeping views. Dinner and overnight at jungle lodge." },
+    { "day": 6, "title": "Ranthambhore: Morning & Evening Safaris", "summary": "Open-jeep game drives in Ranthambhore Tiger Reserve; resort downtime; all meals." },
+    { "day": 7, "title": "Ranthambhore: More Safaris", "summary": "Second day of morning/evening safaris; wildlife viewing in different zones." },
+    { "day": 8, "title": "Ranthambhore → Agra via Fatehpur Sikri", "summary": "Stop at Fatehpur Sikri; visit Agra Fort; sunset at the Taj Mahal. Overnight in Agra. Note: Taj Mahal closed on Fridays." },
+    { "day": 9, "title": "Agra → Jhansi (train) → Orchha → Khajuraho", "summary": "Executive Chair Car to Jhansi; explore riverside Orchha’s palaces/temples; drive to Khajuraho; Sound & Light show in evening." },
+    { "day": 10, "title": "Khajuraho → Varanasi (flight)", "summary": "Morning: Eastern & Southern Temples. Afternoon flight to Varanasi. Evening Ganga Aarti on the ghats." },
+    { "day": 11, "title": "Varanasi: Sunrise Boat, Kashi Vishwanath & Sarnath", "summary": "Sunrise boat on Ganges; visit Vishwanath Temple; excursion to Sarnath; optional massage/relaxation time." },
+    { "day": 12, "title": "Depart India", "summary": "Fly to Delhi for onward connection. Goodbye for now." }
+  ],
+  "other_tours": [
+    { "title": "Central India Tiger Circuit", "slug": "central-india-tiger-circuit", "image": "/static/itineraries/central-india/cover.jpg", "duration_days": 10 },
+    { "title": "Golden Triangle Essentials", "slug": "golden-triangle-essentials", "image": "/static/itineraries/golden-triangle/cover.jpg", "duration_days": 7 }
+  ],
+  "specialist": { "name": "Harmeet", "role": "Safari & Culture Specialist", "photo": "/static/team/harmeet.jpg", "whatsapp": "919999999999" },
+  "why_us": [
+    "20+ years crafting India journeys",
+    "Handpicked guides and naturalists",
+    "Boutique stays with character",
+    "Flexible, private itineraries",
+    "24x7 on-trip assistance"
+  ],
+  "seo": {
+    "meta_title": "Ghats, Ganga & Wildlife — 12 Days | Jetset Travel",
+    "meta_description": "Old & New Delhi, Jaipur, Ranthambhore safaris, Agra & Taj, Orchha, Khajuraho and Varanasi boat ride with Ganga Aarti."
+  }
+}
