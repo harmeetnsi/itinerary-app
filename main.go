@@ -22,7 +22,7 @@ type Itinerary struct {
 	Days       []struct {
 		Day     int    `json:"day"`
 		Title   string `json:"title"`
-		Summary string `json:"summary"`
+		Summary string `json:"summary"`\n\t\tDetails string `json:"details"`
 	} `json:"days"`
 	OtherTours []struct {
 		Title        string `json:"title"`
@@ -49,22 +49,24 @@ func main() {
 
 	// Home page route
 	http.HandleFunc("/", func(w http.ResponseWriter, r *http.Request) {
-		if r.URL.Path != "/" {
-			itinerariesHandler(w, r)
-			return
-		}
-		const tplPath = "/opt/itinerary-app/templates/home.tmpl"
-		log.Println("Rendering template:", tplPath)
-		tmpl, err := template.ParseFiles(tplPath)
-		if err != nil {
-			log.Println("template parse error:", err)
-			http.Error(w, "template error", http.StatusInternalServerError)
-			return
-		}
-		if err := tmpl.Execute(w, nil); err != nil {
-			log.Println("template execute error:", err)
-		}
-	})
+    // Only serve home for exact root path
+    if r.URL.Path == "/" {
+        const tplPath = "/opt/itinerary-app/templates/home.tmpl"
+        log.Println("Rendering template:", tplPath)
+        tmpl, err := template.ParseFiles(tplPath)
+        if err != nil {
+            log.Println("template parse error:", err)
+            http.Error(w, "template error", http.StatusInternalServerError)
+            return
+        }
+        if err := tmpl.Execute(w, nil); err != nil {
+            log.Println("template execute error:", err)
+        }
+        return
+    }
+    // For all other paths, let the router handle them
+    http.DefaultServeMux.ServeHTTP(w, r)
+})
 
 	// Itineraries route
 	http.HandleFunc("/itineraries/", itinerariesHandler)

@@ -96,3 +96,5 @@ main{padding:28px 0}
 .other-tours img { width: 100%; height: 160px; object-fit: cover; display: block; }
 .specialist .specialist-card { display: flex; gap: 1rem; align-items: center; padding: 1rem; border: 1px solid #eee; border-radius: 8px; background: #fafafa; }
 .specialist .avatar { width: 72px; height: 72px; border-radius: 50%; object-fit: cover; }
+
+.itinerary-detail .day-details { white-space: pre-line; }

@@ -60,15 +60,20 @@
       </ul>
     </section>
 
-    <section id="details" class="itinerary-detail">
-      <h2>Itinerary in detail</h2>
-      {{range .Days}}
-      <article class="day">
-        <h3>Day {{.Day}} — {{.Title}}</h3>
-        <p>{{.Summary}}</p>
-      </article>
-      {{end}}
-    </section>
+    <<section id="details" class="itinerary-detail">
+  <h2>Itinerary in detail</h2>
+  {{range .Days}}
+  <article class="day">
+    <h3>Day {{.Day}} — {{.Title}}</h3>
+    {{if .Summary}}<p><strong>Summary:</strong> {{.Summary}}</p>{{end}}
+    {{if .Details}}
+      <div class="day-details">
+        {{.Details}}
+      </div>
+    {{end}}
+  </article>
+  {{end}}
+</section>
 
     <section id="other-tours" class="other-tours">
       <h2>Other tours you may be interested in</h2>

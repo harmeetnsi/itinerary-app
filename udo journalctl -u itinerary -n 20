@@ -1,0 +1,12 @@
+[0;1;32m●[0m itinerary.service - Jetset Itinerary Go App
+     Loaded: loaded (]8;;file://vps3177668.trouble-free.net/etc/systemd/system/itinerary.service/etc/systemd/system/itinerary.service]8;;; [0;1;32menabled[0m; preset: [0;1;32menabled[0m)
+     Active: [0;1;32mactive (running)[0m since Wed 2025-10-15 18:08:05 UTC; 1min 36s ago
+   Main PID: 32683 (itinerary-serve)
+      Tasks: 4 (limit: 2268)
+     Memory: 1.0M (peak: 1.3M)
+        CPU: 17ms
+     CGroup: /system.slice/itinerary.service
+             └─[0;38;5;245m32683 /opt/itinerary-app/itinerary-server[0m
+
+Oct 15 18:08:05 vps3177668.trouble-free.net systemd[1]: Started itinerary.service - Jetset Itinerary Go App.
+Oct 15 18:08:05 vps3177668.trouble-free.net itinerary-server[32683]: 2025/10/15 18:08:05 Listening on 127.0.0.1:8080
