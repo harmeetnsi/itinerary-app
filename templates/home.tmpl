@@ -18,7 +18,8 @@
 
   <link rel="preload" as="video" href="/static/videos/hero.mp4" type="video/mp4">
   <link rel="preload" as="image" href="/static/img/hero-poster.png">
-  <link rel="stylesheet" href="/static/css/site.css">
+  <!-- Bumping CSS version to ensure changes are loaded -->
+  <link rel="stylesheet" href="/static/css/site.css?v=1.5">
 </head>
 <body>
 
@@ -28,11 +29,20 @@
       <img class="brand-logo" src="/static/logo/jetset-travel-logo-512.png" alt="Jetset Travel logo" />
       <span class="brand-text">Jetset Travel</span>
     </a>
+    
+    <!-- Desktop Navigation -->
     <nav class="site-nav">
       <a href="/">Home</a>
       <a href="/itineraries/ghats-ganga-wildlife">Sample Itinerary</a>
       <a href="https://www.jetset.travel.in" target="_blank" rel="noopener">Main Site</a>
     </nav>
+
+    <!-- Mobile Navigation Toggle (Hamburger Button) ADDED HERE -->
+    <button class="mobile-nav-toggle" aria-label="Toggle navigation menu">
+      <span class="hamburger-bar"></span>
+      <span class="hamburger-bar"></span>
+      <span class="hamburger-bar"></span>
+    </button>
   </div>
 </header>
 
@@ -47,7 +57,7 @@
     <p>Experience tigers, temples, and timeless riverfronts through immersive video-first itineraries led by specialists.</p>
     <div class="hero-ctas">
       <a class="btn btn-primary" href="/itineraries/ghats-ganga-wildlife">View Sample Itinerary</a>
-      <a class="btn btn-outline" href="https://wa.me/91XXXXXXXXXX?text=Hi%20Jetset%20Travel%2C%20I%27m%20interested%20in%20an%20itinerary.">Enquire on WhatsApp</a>
+      <a class="btn btn-outline" href="https://wa.me/91XXXX?text=Hi%20Jetset%20Travel%2C%20I%27m%20interested%20in%20an%20itinerary.">Enquire on WhatsApp</a>
     </div>
   </div>
 </section>
@@ -91,6 +101,22 @@
     </nav>
   </div>
 </footer>
+
+<!-- JAVASCRIPT FOR MOBILE NAV ADDED HERE -->
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    const navToggle = document.querySelector('.mobile-nav-toggle');
+    const siteNav = document.querySelector('.site-nav');
+
+    if (navToggle && siteNav) {
+      navToggle.addEventListener('click', function() {
+        siteNav.classList.toggle('is-open');
+        navToggle.classList.toggle('is-active');
+        document.body.classList.toggle('no-scroll');
+      });
+    }
+  });
+</script>
 
 </body>
 </html>

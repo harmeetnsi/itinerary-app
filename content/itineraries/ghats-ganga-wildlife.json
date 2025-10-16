@@ -3,113 +3,146 @@
   "slug": "ghats-ganga-wildlife",
   "duration_days": 12,
   "hero": {
-    "video": "/static/itineraries/ghats-ganga-wildlife/hero.mp4",
-    "poster": "/static/itineraries/ghats-ganga-wildlife/hero.jpg"
+    "video": "/static/videos/hero.mp4",
+    "poster": "/static/img/hero-poster.png"
+  },
+  "seo": {
+    "meta_title": "Ghats, Ganga & Wildlife Tour | 12-Day India Itinerary",
+    "meta_description": "Explore the spiritual ghats of Varanasi, track tigers in Corbett & Dudhwa National Parks on this curated 12-day wildlife and cultural journey through India."
   },
   "highlights": [
-    "Jaipur's Amber Fort and Pink City charm",
-    "Ranthambhore Tiger Reserve safaris",
-    "Sunset at the Taj Mahal",
-    "Khajuraho's UNESCO temples",
-    "Varanasi's Ganges sunrise boat ride"
-  ],
-  "days": [
     {
-      "day": 1,
-      "title": "Arrive New Delhi",
-      "summary": "Airport arrival, meet and assist, hotel check-in, trip documents handover.",
-      "details": "As you step off the plane at New Delhi airport, memories of warm welcomes flood back. A familiar face will guide you through the hustle to your hotel for check-in, handing you cherished travel documents that rekindle past excitement. Enjoy a memorable overnight stay, just like old times."
+      "title": "Tiger Safari in Corbett",
+      "description": "Track the majestic Bengal tiger in its natural habitat.",
+      "image": "/static/images/highlight-tiger.jpg"
     },
     {
-      "day": 2,
-      "title": "Explore Old & New Delhi",
-      "summary": "Red Fort, Jama Masjid, Raj Ghat, Chandni Chowk; Qutab Minar, India Gate, President's House.",
-      "details": "After a delicious breakfast, get ready to explore the vibrant cityscape of Old and New Delhi! In the old city, visit the stunning Red Fort, built by Emperor Shah Jahan, and see Jama Masjid, one of India's largest mosques. Don't miss Raj Ghat, Mahatma Gandhi's memorial, and take a walking tour of Chandni Chowk, Delhi's lively silver street! In the afternoon, head to Qutab Minar, India's tallest stone tower, followed by the iconic India Gate – a beautiful war memorial. As you drive through the city, glimpse the impressive President's House and Parliament House near Connaught Place, New Delhi's heart and a shopping hub. After an exciting day, enjoy a cozy overnight stay at your hotel."
+      "title": "Rhinos of Dudhwa",
+      "description": "Witness the rare one-horned rhinoceros.",
+      "image": "/static/images/highlight-rhino.jpg"
     },
     {
-      "day": 3,
-      "title": "Drive Delhi → Jaipur (260 km / 5–6 hrs)",
-      "summary": "Leisurely drive to the Pink City. Evening at leisure.",
-      "details": "The morning sun spills softly across Delhi as you enjoy a quiet breakfast, knowing it's time to leave the capital behind and begin the next chapter of this journey. Today, the road stretches toward Jaipur, the fabled Pink City, where history clings to every sandstone wall and the air carries whispers of royal pasts. As the car glides through changing landscapes — from the bustle of Delhi to the peaceful countryside — time seems to slow down. The journey takes around 5 to 6 hours, a perfect window to let your thoughts wander, watch the colors shift, and maybe even doze off to the rhythm of the road. By evening, you arrive in Jaipur. The city welcomes you with its warm, terracotta glow and timeless charm. The rest of the day is yours — to rest, to wander, or simply to breathe it all in. Evening at leisure. Overnight stay at your hotel in Jaipur."
+      "title": "Ganga Aarti in Varanasi",
+      "description": "Experience the spiritual evening ceremony on the ghats.",
+      "image": "/static/images/highlight-aarti.jpg"
     },
     {
-      "day": 4,
-      "title": "Jaipur: Forts, Palaces and Observatory",
-      "summary": "Amber Fort, Jantar Mantar, City Palace, Hawa Mahal. Evening shopping.",
-      "details": "Morning arrives gently in Jaipur, with the soft hum of life unfolding outside your window. After breakfast, you set out for the outskirts of the city, where the majestic Amber Fort waits atop its rugged hill — a vision straight out of a fairy tale. The climb up feels like stepping back in time. Within the fort's golden embrace, you explore the Temple of Kali, the shimmering Hall of Victory (Jai Mahal), and courtyards that once echoed with the footsteps of kings and queens. As the day unfolds, the city draws you back into its heart. In the afternoon, you wander through the Jantar Mantar — an ancient observatory that still feels strangely futuristic — before visiting the City Palace and the Palace of Winds (Hawa Mahal), where latticed windows once offered royal women glimpses of the bustling streets below. The museum opens a quiet window into Jaipur's regal past — silken robes, intricate jewels, and tales sewn into fabric. As the sun begins to dip, Jaipur becomes a living painting. You stroll through its pink-hued lanes, alive with colors, chatter, and the scent of street-side snacks. There's joy in the simple act of bargaining, discovering a handcrafted trinket, or sharing a smile with a local shopkeeper. Haggling, souvenir-hunting, and soaking up the rhythm of the city. Return to your hotel for a peaceful night's rest."
-    },
-    {
-      "day": 5,
-      "title": "Jaipur → Ranthambhore",
-      "summary": "Drive through countryside. Visit Ranthambhore Fort; lakes, temples, sweeping views.",
-      "details": "You wake to the final Jaipur sunrise, the pink city still wrapped in quiet. After a relaxed breakfast, the journey turns toward nature — toward Ranthambhore, where forts rise out of forests and tigers roam free. The road winds through the Rajasthani countryside, dotted with mustard fields, village huts, and the occasional camel ambling past. There's something peaceful about watching the world shift from city sprawl to wilderness calm. By early afternoon, you arrive at the resort — a quiet retreat on the edge of the wild. After lunch, you set out to explore the mighty Ranthambhore Fort, a silent sentinel that has watched over these lands for centuries. Hidden behind hills and wrapped in history, it's not just a structure — it's a story written in stone. Climbing the steps, you're rewarded with sweeping views, ancient temples, and three serene lakes nestled within the fort. Legends linger here: emperors, hunters, poets… even Queen Elizabeth once stood where you do now. Visit to the historic Ranthambhore Fort. Lakes, temples, and echoes of Rajput glory. Dinner and overnight at the jungle resort."
-    },
-    {
-      "day": 6,
-      "title": "Ranthambhore: Morning & Evening Safaris",
-      "summary": "Open-jeep game drives in Ranthambhore Tiger Reserve; resort downtime; all meals.",
-      "details": "Morning light seeps in through your window as the call of birds gently stirs you awake. Over the next two days, time will slow, senses will heighten, and nature will take center stage. The day begins before the sun has fully risen. You wrap up warm, sip a quick cup of chai, and hop into the open-top jeep that awaits at the resort gates. As the forest stretches before you, still wrapped in mist, you enter the Ranthambhore Tiger Reserve — a wild world alive with possibilities. Eyes scan the golden grasslands, ears catch the rustle of leaves, and hearts leap at the sight of fresh paw prints. Spotted deer dart between the trees, a langur leaps across branches, and if you're lucky — you might lock eyes with a tiger, silent and majestic in its domain. Return to the resort for breakfast and a bit of quiet. The day continues with rest, maybe a dip in the pool, a short walk, or reading on a shaded verandah. Then, as the afternoon cools, you head back into the jungle. Each safari is different. The forest reveals itself in its own rhythm — a sambar deer silhouetted against the fading sun, the vibrant flash of a kingfisher, or a leopard's low growl from a hidden ridge. Morning & evening safaris through Ranthambhore National Park. Explore zones rich in wildlife, history, and raw beauty. All meals at the resort. Peaceful overnight stays surrounded by wilderness."
-    },
-    {
-      "day": 7,
-      "title": "Ranthambhore: More Safaris",
-      "summary": "Second day of morning/evening safaris; wildlife viewing in different zones.",
-      "details": "Continue with morning and evening safaris through Ranthambhore National Park, exploring different zones rich in wildlife, history, and raw beauty. All meals at the resort. Peaceful overnight stays surrounded by wilderness."
-    },
-    {
-      "day": 8,
-      "title": "Ranthambhore → Agra via Fatehpur Sikri",
-      "summary": "Stop at Fatehpur Sikri; visit Agra Fort; sunset at the Taj Mahal.",
-      "details": "The forest bids you a quiet farewell this morning — the songs of birds, the rustling leaves, the fading scent of wilderness still clinging to your spirit. After breakfast, it's time to set off toward Agra, the city of emperors and everlasting poetry carved in stone. The road stretches out again — about five hours of smooth countryside travel — but not before it pulls you into the spell of Fatehpur Sikri, a city suspended in time. Once a thriving capital of Emperor Akbar's empire, Fatehpur Sikri now stands still and sun-soaked. Its courtyards echo with tales of royal courts, whispered intrigues, and the quiet footsteps of queens. You wander past the Diwan-i-Aam, Jodha Bai's Palace, and the majestic Friday Mosque. The tomb of Sheikh Salim Chishti rests here too, white and serene — a place where emperors once came to seek blessings for sons and empires. You move on, letting history slip gently behind, until the silhouette of Agra Fort rises on the banks of the Yamuna. Its red sandstone walls curve like a protective arm around Mughal legacy. Inside, stories of Akbar, Jehangir, and Shah Jahan unfold in arches and marble courtyards. As the sun begins to dip, all roads lead to one moment — the awe-inspiring Taj Mahal. And there it is, glowing in the golden light, ethereal and almost unreal. No picture ever quite captures that first breath-stealing sight. It's not just a monument — it's a memory waiting to be made. Built by Shah Jahan in memory of Mumtaz Mahal, the Taj is love, grief, beauty, and eternity in marble. Sunset visit to the Taj Mahal. Note: The Taj Mahal is closed on Fridays. Overnight in Agra."
-    },
-    {
-      "day": 9,
-      "title": "Agra → Jhansi (train) → Orchha → Khajuraho",
-      "summary": "Executive Chair Car to Jhansi; explore riverside Orchha's palaces/temples; drive to Khajuraho; Sound & Light show.",
-      "details": "The morning begins early, as the city still rubs sleep from its eyes. You check out and make your way to Agra Cantt Railway Station, where the Executive Chair Car train awaits — sleek, efficient, and just the right setting to sit back and watch India's heartland roll by. The train hums gently as it leaves Agra behind, crossing rivers, fields, and quiet villages, all bathed in the soft light of a new day. Around 11 AM, you arrive at Jhansi, where your journey turns more intimate, more off the beaten path. A short drive takes you to Orchha — a place that feels like a secret India has kept just for you. Orchha, perched beside the Betwa River, is a town where time lingers longer. Palaces rise from the riverside mist, temples stand stoic against the sky, and narrow lanes carry the whispers of Bundela kings. The ancient air here seems to hum with devotion and forgotten tales. You stroll through fortified gateways, past cenotaphs and sacred shrines, pausing in shaded corners to imagine royal processions and poets singing beneath moonlit skies. After a simple, soulful lunch, the road calls again — onward to Khajuraho, a place of divine beauty and sculpted storytelling. The journey is about 3 hours, enough to unwind, doze, or reflect on how many centuries you've already traveled through in a single day. As evening descends, Khajuraho welcomes you — quiet, spiritual, and yet sensuous in its soul. Later, under the stars, you sit back for the Sound & Light Show, where temples come alive with light and legend. Train to Jhansi, drive to Orchha, then on to Khajuraho. Overnight in Khajuraho."
-    },
-    {
-      "day": 10,
-      "title": "Khajuraho → Varanasi (flight)",
-      "summary": "Morning: Eastern & Southern Temples. Afternoon flight to Varanasi. Evening Ganga Aarti.",
-      "details": "The morning light gently spills across Khajuraho's timeless temples, casting long shadows over sculptures frozen in divine expression. After breakfast, you set out to explore the Eastern and Southern group of temples — smaller, quieter, yet equally mesmerizing in detail. Here, every stone whispers — of gods and mortals, devotion and desire, yoga and bhoga. There's serenity in the carvings, a rhythm in the architecture, and a surprising intimacy in how these thousand-year-old temples still hold your gaze. By early afternoon, it's time to leave this gallery of stone poetry and head to the airport. At 2:40 PM, you board a short flight, and as the plane dips into Varanasi, the holy city reveals itself like a shimmering mirage by the river. You arrive just before 4 PM — greeted by the hum of ancient chants and the timeless pulse of the Ganges. In the evening, you step down toward the ghats — a world unto itself. Saffron-robed priests prepare for the Ganga Aarti, bells ring, fire dances, and hundreds of diyas (oil lamps) float on the water like golden prayers. You witness a ritual as old as time, a city that never truly sleeps, and a moment that feels infinite. Morning: Visit to Khajuraho's Eastern & Southern temples. Overnight in Varanasi."
-    },
-    {
-      "day": 11,
-      "title": "Varanasi: Sunrise Boat, Kashi Vishwanath & Sarnath",
-      "summary": "Sunrise boat on Ganges; visit Vishwanath Temple; excursion to Sarnath; optional massage/relaxation.",
-      "details": "Before the city fully stirs, you find yourself standing by the river, wrapped in silence and soft morning mist. A boat awaits — simple, wooden, and timeless. You step in, and slowly drift into the sacred current of the Ganges, just as the sun peeks over the horizon. Pilgrims line the ghats, offering prayers, dipping into holy waters, and welcoming the dawn with open palms. The air carries the gentle murmur of mantras, the scent of incense, and the sound of temple bells echoing from every direction. You glide past shrines and stone steps, past life and death playing side by side — here, in Varanasi, everything is sacred. You visit the Vishwanath Temple, its golden spires rising like a hymn to Shiva. The energy is electric, yet deeply personal — as if the entire city is whispering ancient truths only you can hear. Later, you return to the hotel for breakfast, your heart still afloat on the river. As the day unfolds, you make your way to Sarnath — the place where the Buddha gave his first sermon, under trees that remember. In the stillness of the deer park, you feel time stretch and slow. Monks chant, pilgrims bow, and the teachings of peace, compassion, and simplicity echo through the ruins. In the afternoon, you're free to rest, reflect, or rejuvenate. Perhaps a calming Ayurvedic massage, a quiet corner with chai, or simply gazing at the river, now glowing in the afternoon sun. Early morning boat ride on the Ganges. Visit to the sacred Vishwanath Temple. Excursion to Sarnath, where Buddhism began. Optional: Ayurvedic therapies or meditation. Overnight stay in Varanasi."
-    },
-    {
-      "day": 12,
-      "title": "Depart India",
-      "summary": "Fly to Delhi for onward connection. Goodbye for now.",
-      "details": "Your morning begins slow and gentle — a final cup of chai, a quiet look out the window, and the feeling that something inside you has shifted. You pack not just your bags, but a suitcase of memories: The golden arches of Jaipur, The silence of a tiger's trail, The marble glow of the Taj at sunset, The ancient echo in Khajuraho's stones, And the river that flows through Varanasi and through time itself. A short flight brings you back to Delhi. There's time for freshening up, a final meal, and maybe even a last laugh with fellow travelers. And then — the journey home. But as any true traveler knows... the journey never really ends. Safe travels, my friend."
+      "title": "Ancient Temples",
+      "description": "Explore the timeless architecture of Varanasi's temples.",
+      "image": "/static/images/highlight-temple.jpg"
     }
   ],
-  "other_tours": [
+  "placesVisited": [
+    { "name": "Delhi", "icon": "✈️" },
+    { "name": "Corbett", "icon": "🐅" },
+    { "name": "Dudhwa", "icon": "🦏" },
+    { "name": "Varanasi", "icon": "🛕" },
+    { "name": "Delhi", "icon": "✈️" }
+  ],
+  "dayByDay": [
     {
-      "title": "Central India Tiger Circuit",
-      "slug": "central-india-tiger-circuit",
-      "image": "/static/itineraries/central-india-tiger-circuit/cover.jpg",
-      "duration_days": 10
+      "dayNumber": 1,
+      "title": "Arrival in Delhi",
+      "description": "Arrive at Delhi International Airport. You will be met by our representative and transferred to the hotel. Overnight at the hotel."
+    },
+    {
+      "dayNumber": 2,
+      "title": "Delhi to Corbett National Park",
+      "description": "After breakfast, drive to Corbett National Park. On arrival, check in at the wildlife resort. In the evening, enjoy a nature walk along the Kosi River. Overnight at the resort."
+    },
+    {
+      "video": {
+        "url": "/static/videos/hero.mp4",
+        "poster": "/static/img/hero-poster.png",
+        "caption": "Welcome to the realm of the tiger. Corbett is India's first and most celebrated National Park.",
+        "credit": "Video by John Doe"
+      }
+    },
+    {
+      "dayNumber": 3,
+      "title": "Safari in Corbett National Park",
+      "description": "Enjoy morning and evening jeep safaris in the park. Explore the different zones of Corbett, each offering a unique landscape and a chance to spot tigers, elephants, leopards, and over 600 species of birds. Overnight at the resort."
+    },
+    {
+      "dayNumber": 4,
+      "title": "Corbett to Dudhwa National Park",
+      "description": "After breakfast, drive to Dudhwa National Park. On arrival, check in at the resort. The park is known for its successful conservation of the one-horned rhinoceros. Overnight at the resort."
+    },
+    {
+      "dayNumber": 5,
+      "title": "Safari in Dudhwa National Park",
+      "description": "Enjoy morning and evening jeep safaris in the park. Explore the dense forests and vast grasslands, home to the rhino, swamp deer (Barasingha), and a significant tiger population. Overnight at the resort."
+    },
+    {
+      "video": {
+        "url": "/static/videos/hero.mp4",
+        "poster": "/static/img/hero-poster.png",
+        "caption": "The Terai grasslands of Dudhwa, a critical habitat for the magnificent one-horned rhinoceros.",
+        "credit": "Video by Jane Smith"
+      }
+    },
+    {
+      "dayNumber": 6,
+      "title": "Dudhwa to Lucknow, then fly to Varanasi",
+      "description": "After breakfast, drive to Lucknow airport to board the flight for Varanasi. On arrival in Varanasi, you will be met and transferred to the hotel. In the evening, witness the spectacular Ganga Aarti ceremony. Overnight at the hotel."
+    },
+    {
+      "dayNumber": 7,
+      "title": "Varanasi Sightseeing",
+      "description": "Enjoy a morning boat ride on the holy river Ganges to see the bathing ghats and cremation sites. Later, visit Sarnath, the place where Lord Buddha delivered his first sermon. Overnight at the hotel."
+    },
+    {
+      "dayNumber": 8,
+      "title": "Varanasi Sightseeing",
+      "description": "Today, explore the ancient city of Varanasi, visiting its famous temples like Kashi Vishwanath Temple and the bustling, narrow lanes. Experience the spiritual heart of India. Overnight at the hotel."
+    },
+    {
+      "video": {
+        "url": "/static/videos/hero.mp4",
+        "poster": "/static/img/hero-poster.png",
+        "caption": "Varanasi, the spiritual capital of India, where life and death unfold on the banks of the sacred Ganga.",
+        "credit": "Video by Jetset Travel"
+      }
+    },
+    {
+      "dayNumber": 9,
+      "title": "Varanasi to Agra",
+      "description": "After breakfast, transfer to the railway station to board the train for Agra. On arrival in Agra, check in at the hotel. Overnight at the hotel."
+    },
+    {
+      "dayNumber": 10,
+      "title": "Agra Sightseeing",
+      "description": "Visit the magnificent Taj Mahal at sunrise, a testament to eternal love. Later, visit the historic Agra Fort, a UNESCO World Heritage site. Overnight at the hotel."
+    },
+    {
+      "dayNumber": 11,
+      "title": "Agra to Delhi",
+      "description": "After breakfast, drive back to Delhi. On arrival, check in at the hotel. The rest of the day is free for leisure or last-minute shopping. Overnight at the hotel."
+    },
+    {
+      "dayNumber": 12,
+      "title": "Departure from Delhi",
+      "description": "After breakfast, you will be transferred to the international airport to board your flight for your onward journey."
     }
+  ],
+  "inclusions": [
+    "Accommodation on twin sharing basis.",
+    "Meals: Breakfast.",
+    "All transfers and sightseeing by an air-conditioned vehicle.",
+    "Jeep safaris in Corbett and Dudhwa National Parks.",
+    "Services of a local English-speaking guide.",
+    "All applicable taxes."
+  ],
+  "exclusions": [
+    "Any airfare or train fare.",
+    "Monuments and national parks entrance fees.",
+    "Expenses of personal nature like tips, telephone calls, laundry, liquor etc.",
+    "Any other item not specified in the 'cost includes' column."
   ],
   "specialist": {
-    "name": "Harmeet",
-    "role": "Safari & Culture Specialist",
-    "photo": "/static/team/harmeet.jpg",
-    "whatsapp": "+91-99999-99999"
-  },
-  "why_us": [
-    "20+ years crafting India journeys",
-    "Handpicked guides and naturalists",
-    "Boutique stays with character",
-    "Flexible, private itineraries",
-    "24x7 on-trip assistance"
-  ],
-  "seo": {
-    "meta_title": "Ghats, Ganga & Wildlife — 12 Days | Jetset Travel",
-    "meta_description": "Jaipur, Ranthambhore tigers, Taj Mahal, Khajuraho temples, Varanasi Ganges — India's cultural and wildlife masterpiece."
+    "name": "Your Name Here",
+    "role": "Wildlife Specialist",
+    "photo": "/static/images/specialist-placeholder.jpg",
+    "whatsapp": "910000000000"
   }
 }

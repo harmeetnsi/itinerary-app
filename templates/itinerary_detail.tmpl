@@ -1,119 +1,129 @@
-
 <!doctype html>
 <html lang="en">
 <head>
   <meta charset="utf-8" />
+  <title>{{.SEO.MetaTitle}}</title>
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>{{if .SEO.MetaTitle}}{{.SEO.MetaTitle}}{{else}}{{.Title}} | Jetset Travel{{end}}</title>
-  <meta name="description" content="{{.SEO.MetaDescription}}">
-  <link rel="icon" href="/static/logo/jetset-travel-logo-512.png">
-  <link rel="stylesheet" href="/static/css/site.css">
+  <meta name="description" content="{{.SEO.MetaDescription}}" />
+  <link rel="icon" type="image/png" href="/static/logo/jetset-travel-logo-512.png" />
+  <link rel="stylesheet" href="/static/css/site.css?v=3.4" />
 </head>
 <body>
+
   <header class="site-header">
     <div class="container header-inner">
       <a class="brand" href="/">
-        <img src="/static/logo/jetset-travel-logo-512.png" alt="Jetset Travel" class="brand-logo">
+        <img class="brand-logo" src="/static/logo/jetset-travel-logo-512.png" alt="Jetset Travel" />
         <span class="brand-text">Jetset Travel</span>
       </a>
       <nav class="site-nav">
-        <a href="/itineraries/{{.Slug}}#highlights">Highlights</a>
-        <a href="/itineraries/{{.Slug}}#details">Itinerary</a>
-        <a href="/itineraries/{{.Slug}}#other-tours">Other tours</a>
-        <a href="/itineraries/{{.Slug}}#specialist">Speak to specialist</a>
-        <a href="/itineraries/{{.Slug}}#why-us">Why us</a>
+        <a href="/">Home</a>
+        <a href="/itineraries/ghats-ganga-wildlife">Sample Itinerary</a>
+        <a href="https://www.jetset.travel.in" target="_blank" rel="noopener">Main Site</a>
       </nav>
+      <button class="mobile-nav-toggle" aria-label="Toggle navigation menu">
+        <span class="hamburger-bar"></span>
+        <span class="hamburger-bar"></span>
+        <span class="hamburger-bar"></span>
+      </button>
     </div>
   </header>
 
-  <section class="hero hero--itinerary">
-    <video class="hero-video" autoplay muted loop playsinline poster="{{.Hero.Poster}}">
-      <source src="{{.Hero.Video}}" type="video/mp4">
-    </video>
-    <div class="hero-overlay"></div>
-    <div class="hero-content container">
-      <h1>{{.Title}}</h1>
-      <p>{{.DurationDays}} days • Private, customizable</p>
-      <div class="hero-ctas">
-        <a class="btn btn-primary" href="#details">View day-by-day</a>
-        <a class="btn btn-outline" href="https://wa.me/{{.Specialist.Whatsapp}}?text={{urlquery (printf "Hi, I’m interested in %s" .Title)}}">WhatsApp specialist</a>
-      </div>
-    </div>
-  </section>
-
-  <nav class="jump-to">
-    <div class="container">
-      <a href="#highlights">Tour highlights</a>
-      <a href="#details">Itinerary in detail</a>
-      <a href="#other-tours">Other tours</a>
-      <a href="#specialist">Speak to specialist</a>
-      <a href="#why-us">Why travel with us</a>
-    </div>
-  </nav>
-
-  <main class="container">
-    <section id="highlights" class="highlights">
-      <h2>Tour highlights</h2>
-      <ul class="highlights-grid">
-        {{range .Highlights}}
-        <li>{{.}}</li>
-        {{end}}
-      </ul>
-    </section>
-
-    <<section id="details" class="itinerary-detail">
-  <h2>Itinerary in detail</h2>
-  {{range .Days}}
-  <article class="day">
-    <h3>Day {{.Day}} — {{.Title}}</h3>
-    {{if .Summary}}<p><strong>Summary:</strong> {{.Summary}}</p>{{end}}
-    {{if .Details}}
-      <div class="day-details">
-        {{.Details}}
-      </div>
-    {{end}}
-  </article>
-  {{end}}
-</section>
-
-    <section id="other-tours" class="other-tours">
-      <h2>Other tours you may be interested in</h2>
-      <div class="card-grid">
-        {{range .OtherTours}}
-        <a class="card" href="/itineraries/{{.Slug}}">
-          <img src="{{.Image}}" alt="{{.Title}}">
-          <div class="card-body">
-            <h3>{{.Title}}</h3>
-            <p>{{.DurationDays}} days</p>
-          </div>
-        </a>
-        {{end}}
+  <main>
+    <section class="hero hero--itinerary">
+      <video class="hero-video" autoplay muted playsinline loop poster="{{.Hero.Poster}}">
+        <source src="{{.Hero.Video}}" type="video/mp4" />
+      </video>
+      <div class="hero-overlay"></div>
+      <div class="container hero-content">
+        <h1>{{.Title}}</h1>
+        <p>{{.DurationDays}} Days of Unforgettable Wildlife & Culture</p>
       </div>
     </section>
 
-    <section id="specialist" class="specialist">
-      <div class="specialist-card">
-        <img class="avatar" src="{{.Specialist.Photo}}" alt="{{.Specialist.Name}}">
-        <div>
-          <h3>Speak to a specialist</h3>
-          <p>{{.Specialist.Name}} — {{.Specialist.Role}}</p>
-          <a class="btn btn-primary" href="https://wa.me/{{.Specialist.Whatsapp}}?text={{urlquery (printf "Hi, I’m interested in %s" .Title)}}">WhatsApp now</a>
+    <nav class="jump-cards">
+      <div class="container">
+        <div class="jump-cards__row">
+          <a href="#highlights" class="jump-card"><div class="jump-card__icon">📸</div><div><div class="jump-card__title">Highlights</div><div class="jump-card__desc">Key experiences</div></div></a>
+          <a href="#journey" class="jump-card"><div class="jump-card__icon">🗺️</div><div><div class="jump-card__title">The Journey</div><div class="jump-card__desc">Places you'll visit</div></div></a>
+          <a href="#itinerary" class="jump-card"><div class="jump-card__icon">🗓️</div><div><div class="jump-card__title">Day-by-Day</div><div class="jump-card__desc">Full itinerary</div></div></a>
+          <a href="#inclusions" class="jump-card"><div class="jump-card__icon">✅</div><div><div class="jump-card__title">Inclusions</div><div class="jump-card__desc">What's included</div></div></a>
         </div>
       </div>
-    </section>
+    </nav>
 
-    <section id="why-us" class="why-us">
-      <h2>Why travel with us</h2>
-      <ul>
-        {{range .WhyUs}}<li>{{.}}</li>{{end}}
-      </ul>
-    </section>
+    <div class="container section-pad">
+      <section id="highlights" class="slider-section"><h2 class="section-title">Trip Highlights</h2><div class="slider-container"><div class="slider-track">{{range .Highlights}}<div class="highlight-card"><img src="{{.Image}}" alt="{{.Title}}" class="highlight-card__img"><div class="highlight-card__overlay"></div><div class="highlight-card__content"><h3 class="highlight-card__title">{{.Title}}</h3><p class="highlight-card__desc">{{.Description}}</p></div></div>{{end}}</div><button class="slider-arrow slider-arrow--prev">❮</button><button class="slider-arrow slider-arrow--next">❯</button></div></section>
+      
+      <section id="journey" class="slider-section section-pad"><h2 class="section-title">The Journey</h2><div class="slider-container"><div class="slider-track places-track">{{range .PlacesVisited}}<div class="jump-card"><div class="jump-card__icon">{{.Icon}}</div><div><div class="jump-card__title">{{.Name}}</div></div></div>{{end}}</div><button class="slider-arrow slider-arrow--prev">❮</button><button class="slider-arrow slider-arrow--next">❯</button></div></section>
+      
+      <section id="itinerary" class="section-pad">
+        <h2 class="section-title">Day-by-Day Itinerary</h2>
+        <div class="day-by-day-container">
+          {{range .DayByDay}}
+            {{if .Video}}
+              <div class="day-block day-block--video">
+                <div class="day-video-wrapper">
+                  <video class="day-video" controls muted playsinline poster="{{.Video.Poster}}">
+                    <source src="{{.Video.URL}}" type="video/mp4" />
+                  </video>
+                </div>
+                <p class="day-video-caption">{{.Video.Caption}}</p>
+                {{if .Video.Credit}}
+                  <p class="day-video-credit">{{.Video.Credit}}</p>
+                {{end}}
+              </div>
+            {{else}}
+              <div class="day-block day-block--text">
+                <h3 class="day-title">Day {{.DayNumber}}: {{.Title}}</h3>
+                <p class="day-description">{{.Description}}</p>
+              </div>
+            {{end}}
+          {{end}}
+        </div>
+      </section>
+
+      <section id="inclusions" class="section-pad">
+        <h2 class="section-title">Tour Inclusions</h2>
+        <div class="inclusions-container">
+          <div class="inclusion-box">
+            <h3 class="inclusion-title">What's Included</h3>
+            <ul class="inclusion-list">
+              {{range .Inclusions}}
+                <li>{{.}}</li>
+              {{end}}
+            </ul>
+          </div>
+          <div class="inclusion-box">
+            <h3 class="inclusion-title">What's Not Included</h3>
+            <ul class="inclusion-list">
+              {{range .Exclusions}}
+                <li>{{.}}</li>
+              {{end}}
+            </ul>
+          </div>
+        </div>
+      </section>
+
+    </div>
   </main>
 
-  <footer class="site-footer">
-    <div class="container">
-      <p>© 2025 Jetset Travel</p>
-    </div>
-  </footer>
+  <footer class="site-footer"><div class="container">© 2025 Jetset Travel</div></footer>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      const navToggle = document.querySelector('.mobile-nav-toggle');
+      const siteNav = document.querySelector('.site-nav');
+      if (navToggle && siteNav) { navToggle.addEventListener('click', function() { siteNav.classList.toggle('is-open'); navToggle.classList.toggle('is-active'); document.body.classList.toggle('no-scroll'); }); }
+      const setupSlider = (sliderId) => {
+        const slider = document.querySelector(sliderId); if (!slider) return;
+        const track = slider.querySelector('.slider-track'); const prevButton = slider.querySelector('.slider-arrow--prev'); const nextButton = slider.querySelector('.slider-arrow--next'); const container = slider.querySelector('.slider-container'); if (!track || !prevButton || !nextButton || !container) return;
+        nextButton.addEventListener('click', () => { track.scrollBy({ left: container.offsetWidth, behavior: 'smooth' }); });
+        prevButton.addEventListener('click', () => { track.scrollBy({ left: -container.offsetWidth, behavior: 'smooth' }); });
+      };
+      setupSlider('#highlights'); setupSlider('#journey');
+    });
+  </script>
+
 </body>
 </html>
