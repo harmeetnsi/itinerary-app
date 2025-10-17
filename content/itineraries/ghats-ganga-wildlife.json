@@ -3,18 +3,18 @@
   "slug": "ghats-ganga-wildlife",
   "duration_days": 12,
   "hero": {
-    "video": "/static/videos/hero.mp4",
-    "poster": "/static/img/hero-poster.png"
+    "video": "/static/videos/tiger-in-waterbody.mp4",
+    "poster": "/static/img/tiger-in-corbett.png"
   },
   "seo": {
     "meta_title": "Ghats, Ganga & Wildlife Tour | 12-Day India Itinerary",
     "meta_description": "Explore the spiritual ghats of Varanasi, track tigers in Corbett & Dudhwa National Parks on this curated 12-day wildlife and cultural journey through India."
   },
   "highlights": [
-    { "title": "Tiger Safari in Corbett", "description": "Track the majestic Bengal tiger in its natural habitat.", "image": "/static/images/highlight-tiger.jpg", "icon": "🐅" },
-    { "title": "Rhinos of Dudhwa", "description": "Witness the rare one-horned rhinoceros.", "image": "/static/images/highlight-rhino.jpg", "icon": "🦏" },
-    { "title": "Ganga Aarti in Varanasi", "description": "Experience the spiritual evening ceremony on the ghats.", "image": "/static/images/highlight-aarti.jpg", "icon": "🙏" },
-    { "title": "Ancient Temples", "description": "Explore the timeless architecture of Varanasi's temples.", "image": "/static/images/highlight-temple.jpg", "icon": "🛕" }
+    { "title": "Tiger Safari in Corbett", "description": "Track the majestic Bengal tiger in its natural habitat.", "image": "/static/img/highlight-tiger.jpg", "icon": "🐅" },
+    { "title": "Rhinos of Dudhwa", "description": "Witness the rare one-horned rhinoceros.", "image": "/static/img/highlight-rhino.jpg", "icon": "🦏" },
+    { "title": "Ganga Aarti in Varanasi", "description": "Experience the spiritual evening ceremony on the ghats.", "image": "/static/img/highlight-aarti.jpg", "icon": "🙏" },
+    { "title": "Ancient Temples", "description": "Explore the timeless architecture of Varanasi's temples.", "image": "/static/img/highlight-temple.jpg", "icon": "🛕" }
   ],
   "placesVisited": [
     { "name": "Delhi", "icon": "✈️" },
@@ -26,15 +26,15 @@
   "dayByDay": [
     { "dayNumber": 1, "title": "Arrival in Delhi", "description": "Arrive at Delhi International Airport. You will be met by our representative and transferred to the hotel. Overnight at the hotel." },
     { "dayNumber": 2, "title": "Delhi to Corbett National Park", "description": "After breakfast drive to Corbett National Park (275 kms / 6-7 hrs). On arrival check in at the wildlife resort. Evening enjoy nature walk along the Kosi river. Overnight at the resort." },
-    { "video": { "url": "/static/videos/hero.mp4", "poster": "/static/img/hero-poster.png", "caption": "Welcome to the realm of the tiger. Corbett is India's first and most celebrated National Park.", "credit": "Video by John Doe" } },
+    { "video": { "url": "/static/itineraries/ghats-ganga-wildlife/img/elephant-in-dudhwa.mp4", "poster": "/static/itineraries/ghats-ganga-wildlife/img/elephant-in-dudhwa.jpg", "caption": "The Terai grasslands of Dudhwa, a critical habitat for the magnificent Indian elephants.", "credit": "Video by pexel" } },
     { "dayNumber": 3, "title": "Safari in Corbett National Park", "description": "Enjoy morning and evening jeep safari in the park. Corbett has the highest density of tiger in the country. It is also a great place for bird watching. Overnight at the resort." },
     { "dayNumber": 4, "title": "Corbett to Dudhwa National Park", "description": "After breakfast drive to Dudhwa National Park (250 kms / 6-7 hrs). On arrival check in at the resort. The park is known for its successful conservation of the one-horned rhinoceros. Overnight at the resort." },
     { "dayNumber": 5, "title": "Safari in Dudhwa National Park", "description": "Enjoy morning and evening jeep safari in the park. Explore the dense forests and vast grasslands, home to the rhino, swamp deer (Barasingha), and a significant tiger population. Overnight at the resort." },
-    { "video": { "url": "/static/videos/hero.mp4", "poster": "/static/img/hero-poster.png", "caption": "The Terai grasslands of Dudhwa, a critical habitat for the magnificent one-horned rhinoceros.", "credit": "Video by Jane Smith" } },
+    { "video": { "url": "/static/itineraries/ghats-ganga-wildlife/img/ganga-aarti.mp4", "poster": "/static/itineraries/ghats-ganga-wildlife/img/ganga-arti-varanasi.jpg", "caption": "Varanasi, the spiritual capital of India, where life and death unfold on the banks of the sacred Ganga.", "credit": "Video by pexel" } },
     { "dayNumber": 6, "title": "Dudhwa to Lucknow, then fly to Varanasi", "description": "After breakfast drive to Lucknow airport (250 kms / 5-6 hrs) to board the flight for Varanasi. On arrival in Varanasi, you will be met and transferred to the hotel. In the evening, witness the spectacular Ganga Aarti ceremony. Overnight at the hotel." },
     { "dayNumber": 7, "title": "Varanasi Sightseeing", "description": "Enjoy a morning boat ride on the holy river Ganges to see the bathing ghats and cremation sites. Later, visit Sarnath, the place where Lord Buddha delivered his first sermon. Overnight at the hotel." },
     { "dayNumber": 8, "title": "Varanasi Sightseeing", "description": "Today, explore the ancient city of Varanasi, visiting its famous temples like Kashi Vishwanath Temple and the bustling, narrow lanes. Experience the spiritual heart of India. Overnight at the hotel." },
-    { "video": { "url": "/static/videos/hero.mp4", "poster": "/static/img/hero-poster.png", "caption": "Varanasi, the spiritual capital of India, where life and death unfold on the banks of the sacred Ganga.", "credit": "Video by Jetset Travel" } },
+    { "video": { "url": "/static/itineraries/ghats-ganga-wildlife/img/taj-mahal-agra.mp4", "poster": "/static/itineraries/ghats-ganga-wildlife/img/tajmahal - agra.png", "caption": "Varanasi, the spiritual capital of India, where life and death unfold on the banks of the sacred Ganga.", "credit": "Video by Daniel Isola" } },
     { "dayNumber": 9, "title": "Varanasi to Agra", "description": "After breakfast transfer to the railway station to board the train for Agra. On arrival in Agra check in at the hotel. Overnight at the hotel." },
     { "dayNumber": 10, "title": "Agra Sightseeing", "description": "Visit the magnificent Taj Mahal at sunrise, a testament to eternal love. Later, visit the historic Agra Fort, a UNESCO World Heritage site. Overnight at the hotel." },
     { "dayNumber": 11, "title": "Agra to Delhi", "description": "After breakfast drive back to Delhi (210 kms / 4 hrs). On arrival check in at the hotel. Rest of the day free for leisure / last minute shopping. Overnight at the hotel." },
