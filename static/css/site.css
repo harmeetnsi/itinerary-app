@@ -199,3 +199,48 @@ img { max-width: 100%; height: auto; }
     hyphens: auto;
   }
 }
+
+/* =============================================
+   ITINERARY DAY-BY-DAY VIDEO STYLES
+   ============================================= */
+
+/* This is the main container for a video block in the itinerary */
+.day-block--video {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  border-left: 3px solid #0b3d2e; /* A subtle accent color */
+  padding-left: 2rem;
+}
+
+/* This wrapper helps control the video's aspect ratio and appearance */
+.day-video-wrapper {
+  position: relative;
+  overflow: hidden;
+  border-radius: 8px; /* Rounded corners for the video */
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1); /* A soft shadow */
+  margin-bottom: 1rem;
+}
+
+/* This makes the video fill its container */
+.day-video {
+  width: 100%;
+  height: auto;
+  display: block; /* Removes any extra space below the video */
+}
+
+/* Styling for the video's caption */
+.day-video-caption {
+  font-size: 0.9rem;
+  color: #555;
+  font-style: italic;
+  margin: 0;
+  padding: 0;
+}
+
+/* Styling for the video credit, if it exists */
+.day-video-credit {
+  font-size: 0.8rem;
+  color: #888;
+  text-align: right;
+  margin-top: 0.5rem;
+}

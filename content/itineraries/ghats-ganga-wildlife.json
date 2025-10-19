@@ -61,7 +61,7 @@
     "whatsapp": "910000000000"
   },
   "otherTours": [
-    { "title": "Golden Triangle Odyssey", "image": "https://placehold.co/600x400/0b3d2e/d8b36a?text=Golden+Triangle", "url": "/itineraries/golden-triangle" },
+    { "title": "Snow Leopard Spiti Valley", "image": "/static/images/snowleopard-expidition-spiti/snow-leopard-expidition-spiti-tour.png", "url": "/itineraries/snow-leopard-expedition-spiti" },
     { "title": "Kerala Backwater Bliss", "image": "https://placehold.co/600x400/0b3d2e/d8b36a?text=Kerala", "url": "/itineraries/kerala-backwaters" },
     { "title": "Rajasthan Royal Heritage", "image": "https://placehold.co/600x400/0b3d2e/d8b36a?text=Rajasthan", "url": "/itineraries/rajasthan-heritage" },
     { "title": "Himalayan Spiritual Journey", "image": "https://placehold.co/600x400/0b3d2e/d8b36a?text=Himalayas", "url": "/itineraries/himalayan-journey" },

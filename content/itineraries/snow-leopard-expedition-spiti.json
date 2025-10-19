@@ -1,0 +1,80 @@
+{
+"title": "Whispers in the White Wilderness: A Snow Leopard Expedition",
+"slug": "snow-leopard-expedition-spiti",
+"duration_days": 13,
+"hero": {
+"video": "/static/images/snowleopard-expidition-spiti/Snow-leopard-highlight.mp4",
+"poster": "/static/img/snow-leopard-spiti.png"
+},
+"seo": {
+"meta_title": "Snow Leopard Expedition in Spiti | 13-Day Luxury Himachal Tour",
+"meta_description": "Embark on a once-in-a-lifetime journey to Spiti Valley to track the elusive snow leopard. A 13-day expedition blending high-altitude adventure, serene landscapes, and authentic Himalayan culture."
+},
+"highlights": [
+{ "title": "Track the Ghost Cat", "description": "Search for the elusive Snow Leopard in its stunning natural habitat.", "image": "/static/images/snowleopard-expidition-spiti/snow-leopard-highlight.png", "icon": "🐾" },
+{ "title": "High-Altitude Homestays", "description": "Experience authentic Himalayan hospitality in cozy, remote villages.", "image": "/static/images/snowleopard-expidition-spiti/homestay-highlight.png", "icon": "🏡" },
+{ "title": "Ancient Monasteries", "description": "Visit Tabo, the 'Ajanta of the Himalayas', and feel its timeless serenity.", "image": "/static/images/snowleopard-expidition-spiti/ancient-monastry-highlight.jpg", "icon": "🛕" },
+{ "title": "Starlit Winter Skies", "description": "Witness the breathtaking clarity of the Milky Way in the high desert.", "image": "/static/images/snowleopard-expidition-spiti/spiti-nightsky-highlight.jpg?text=Stars", "icon": "✨" }
+],
+"placesVisited": [
+{ "name": "Delhi", "icon": "✈️" },
+{ "name": "Chandigarh", "icon": "🚗" },
+{ "name": "Rampur", "icon": "🏰" },
+{ "name": "Tabo", "icon": "🛕" },
+{ "name": "Kibber", "icon": "🐾" }
+],
+"dayByDay": [
+{ "dayNumber": 1, "title": "Welcome to India – Where Every Journey Begins with a Story", "description": "Your snow-kissed adventure begins in India’s vibrant capital. As your flight touches down in New Delhi, a warm smile and heartfelt greeting await you. Our personal representative will escort you to your hotel, a tranquil cocoon away from the city’s buzz. The evening is yours: unwind, sip on saffron-infused chai, and let anticipation build under Delhi’s starlit winter sky." },
+{ "dayNumber": 2, "title": "Into the Foothills – From the City to Cedar-Laced Valleys", "description": "After a restful morning, you’ll take a short flight to Chandigarh, where our mountain crew awaits. The road to Rampur winds through pine-fringed hills. We pause for a leisurely lunch at the charming Timber Trail in Parwanoo. As the sun softens, we arrive at Nau Nabh Heritage Hotel in Rampur, once a favored retreat of royals and poets." },
+
+{ "video": { "url": "/static/images/snowleopard-expidition-spiti/through-cedar-lined-valley.mp4", "poster": "/static/images/snowleopard-expidition-spiti/himalayan-road-journey.jpg", "caption": "Through cedar-lined valleys toward the high Himalayas.", "credit": "Video by Manjeet" } },
+
+{ "dayNumber": 3, "title": "Ascending Into Silence – The Road to Tabo", "description": "At first light, we set off from Rampur for a full day’s ascent. This is where the journey turns wild: winding roads, pine forests giving way to rocky ridges. Tabo, known as the Ajanta of the Himalayas, welcomes you by evening with its ancient monastery and a sky dusted with a thousand stars. Tonight, you’ll stay at a cozy, clean local homestay." },
+{ "dayNumber": 4, "title": "In the Realm of the Ghost Cat – Kibber & Snow Leopard Tracking", "description": "Your day begins with a quiet visit to the sacred Tabo Monastery. After breakfast, you drive deeper into the mountains toward Kibber, one of the highest inhabited villages on Earth. Over the next 6 days, you’ll live as both explorer and guest—wrapped in the quiet rhythm of Kibber life. Mornings start with steaming tea and daily briefings with expert trackers before heading out into the wind-swept world of the Snow Leopard." },
+{ "dayNumber": 5, "title": "Patience and Paw Prints", "description": "The search continues. Our expert spotters scan the ridges while you immerse yourself in the profound silence of the Himalayas. You might spot Blue Sheep, Ibex, or a Red Fox. Lunch is often served at the sighting site, a warm meal in the vast wilderness. Evenings are for stories and warmth back at the homestay." },
+
+{ "video": { "url": "/static/images/snowleopard-expidition-spiti/snow-leopard-tracking.mp4", "poster": "/static/images/snowleopard-expidition-spiti/snow-leopard-tracking.jpg", "caption": "Scanning ridgelines and frozen valleys—the art of tracking the ghost cat.", "credit": "Video by Miguel Á. Padriñán" } },
+
+{ "dayNumber": 6, "title": "A Communion with the Wild", "description": "Each day is a meditation. Photography is made effortless with porters carrying your gear, and comfortable setups at viewing spots. This is more than a wildlife expedition—it's a communion with a rare, untamed world, supported by a team ensuring your comfort with oxygen tanks and health monitoring." },
+{ "dayNumber": 7, "title": "The Rhythm of the Village", "description": "Today, you might take a short walk around Kibber village, interacting with the locals and understanding their way of life in this harsh, beautiful environment. The connection to the community is as profound as the connection to the wildlife." },
+{ "dayNumber": 8, "title": "Eyes on the Horizon", "description": "Our trackers may lead us to a new location today, based on animal movements. The journey in our 4x4 Gypsys is an adventure in itself, crossing frozen streams and navigating snowy tracks in pursuit of the ghost cat." },
+
+{ "video": { "url": "/static/images/snowleopard-expidition-spiti/kibber-village-winter.mp4", "poster": "/static/images/snowleopard-expidition-spiti/kibber-village-winter.jpg", "caption": "Kibber in winter—one of the highest inhabited villages on Earth.", "credit": "Video by Manjeet" } },
+
+{ "dayNumber": 9, "title": "The Reward of Stillness", "description": "Whether a sighting occurs today or not, the experience is in the waiting, the watching, and the being present. The stark beauty of Spiti in winter, the crisp air, and the vast landscapes are a reward in themselves." },
+{ "dayNumber": 10, "title": "Last Day in the Kingdom", "description": "Your final full day of tracking. One last chance to scan the mountains for that flick of a tail or a silhouette on a ridge. We soak in the final moments of this incredible high-altitude experience, cherishing the silence and the raw beauty." },
+{ "dayNumber": 11, "title": "Descent Through Memory – From Kibber Back to Rampur", "description": "As dawn breaks, we bid farewell to Kibber. We begin the descent down winding Himalayan roads, each turn bringing back color and memories. By late evening, you return to the comforting elegance of Nau Nabh Heritage Hotel in Rampur for a nostalgic evening." },
+{ "dayNumber": 12, "title": "The Long Goodbye – Through Valleys, Forests & Stories", "description": "We depart Rampur at first light, tracing our way back through the valleys. As we arrive in Chandigarh by evening, the city welcomes you gently back to civilization. Your hotel offers modern comforts, ideal for reminiscing over the journey." },
+
+{ "video": { "url": "/static/images/snowleopard-expidition-spiti/depart-from-rampur.mp4", "poster": "/static/images/snowleopard-expidition-spiti/rampur-village-scene.png", "caption": "From mountain silence to city lights—the journey’s gentle transition.", "credit": "Video by Manjeet" } },
+
+{ "dayNumber": 13, "title": "Wings of Return – Farewell to the Himalayas", "description": "After a leisurely breakfast, your transfer to Chandigarh Airport is arranged. As the aircraft lifts into the sky, trace the arc of the mountains below. This is not just the end of a journey—it’s the beginning of a lifetime of storytelling." }
+],
+"inclusions": [
+"Accommodation on twin sharing basis (hotels and homestays).",
+"All meals as specified in the itinerary.",
+"All transfers and sightseeing by a private vehicle.",
+"Services of an experienced snow leopard tracker and guide.",
+"Porters for carrying camera equipment.",
+"All applicable taxes."
+],
+"exclusions": [
+"Any airfare or train fare.",
+"Monastery entrance fees.",
+"Expenses of personal nature like tips, telephone calls, laundry, liquor etc.",
+"Travel insurance and emergency evacuation costs.",
+"Any other item not specified in the 'cost includes' column."
+],
+"specialist": {
+"name": "Your Name Here",
+"role": "Himalayan Specialist",
+"photo": "/static/images/specialist-placeholder.jpg",
+"whatsapp": "910000000000"
+},
+"otherTours": [
+{ "title": "Ghats, Ganga & Wildlife", "image": "/static/images/snowleopard-expidition-spiti/ghats-ganga-wildlife.png", "url": "/itineraries/ghats-ganga-wildlife" },
+{ "title": "Kerala Backwater Bliss", "image": "https://placehold.co/600x400/0b3d2e/d8b36a?text=Kerala", "url": "/itineraries/kerala-backwaters" },
+{ "title": "Rajasthan Royal Heritage", "image": "https://placehold.co/600x400/0b3d2e/d8b36a?text=Rajasthan", "url": "/itineraries/rajasthan-heritage" },
+{ "title": "Golden Triangle Odyssey", "image": "https://placehold.co/600x400/0b3d2e/d8b36a?text=Golden+Triangle", "url": "/itineraries/golden-triangle" }
+]
+}

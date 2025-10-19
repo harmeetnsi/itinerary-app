@@ -42,8 +42,6 @@
     </div>
   </header>
 
-  <!-- The rest of your file remains the same... -->
-
   <main>
     <section class="hero hero--itinerary">
       <video class="hero-video" autoplay muted playsinline loop poster="{{.Hero.Poster}}">
@@ -114,7 +112,7 @@
             {{if .Video}}
               <div class="day-block day-block--video">
                 <div class="day-video-wrapper">
-                  <video class="day-video" controls muted playsinline poster="{{.Video.Poster}}">
+                  <video class="day-video" autoplay muted loop playsinline poster="{{.Video.Poster}}">
                     <source src="{{.Video.URL}}" type="video/mp4" />
                   </video>
                 </div>
@@ -181,7 +179,7 @@
       <div class="footer-column">
         <h3 class="footer-title">Plan Your Trip</h3>
         <p class="footer-subtitle">Fill out the form below and one of our travel experts will be in touch shortly.</p>
-        <form class="footer-form" action="mailto:your-email@jetset.travel.in" method="post" enctype="text/plain">
+        <form class="footer-form" action="mailto:info@jetset.travel.in" method="post" enctype="text/plain">
           <input type="text" name="name" placeholder="Your Name" required>
           <input type="email" name="email" placeholder="Email Address" required>
           <input type="tel" name="mobile" placeholder="Mobile Number">
