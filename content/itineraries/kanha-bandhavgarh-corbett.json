@@ -1,0 +1,198 @@
+{
+"title": "Whispers of the Sal Forest: Kanha, Bandhavgarh & Corbett",
+"slug": "kanha-bandhavgarh-corbett",
+"duration_days": 13,
+"hero": {
+"video": "/static/images/kanha-bandhavgarh-corbett/kanha-bandhavgarh-corbett-hero.mp4",
+"poster": "/static/images/kanha-bandhavgarh-corbett/kanha-bandhavgarh-corbett-hero.jpg"
+},
+"seo": {
+"meta_title": "Kanha Bandhavgarh Corbett Tour | 13-Day India Tiger Safari",
+"meta_description": "A 13-day immersive tiger safari across Kanha, Bandhavgarh and Corbett. Mystic forests, folk tales, dawn safaris and experiential India wildlife travel crafted for photographers and nature lovers."
+},
+"highlights": [
+{
+"title": "Dawn Safaris in Legendary Tiger Lands",
+"description": "Track Bengal tigers where folk tales breathe—Kanha’s meadows, Bandhavgarh’s cliffs, and Corbett’s riverine forests.",
+"image": "/static/images/kanha-bandhavgarh-corbett/highlight-tiger-scan.jpg",
+"icon": "🐅"
+},
+{
+"title": "Folk Lore & Forest Spirits",
+"description": "Hear ancient village stories and forest myths that give these landscapes their mystic soul.",
+"image": "/static/images/kanha-bandhavgarh-corbett/highlight-folklore.jpg",
+"icon": "🪵"
+},
+{
+"title": "Birdsong, Meadows & Mahua",
+"description": "Witness barasingha in Kanha’s meadows and hornbills arcing over sal forest canopies.",
+"image": "/static/images/kanha-bandhavgarh-corbett/highlight-meadows.jpg",
+"icon": "🕊️"
+},
+{
+"title": "River of Stories",
+"description": "Follow the Ramganga in Corbett—emerald pools, pebbled shores, fish eagles and sunset light.",
+"image": "/static/images/kanha-bandhavgarh-corbett/highlight-ramganga.jpg",
+"icon": "🌊"
+}
+],
+"placesVisited": [
+{ "name": "Delhi", "icon": "✈️" },
+{ "name": "Jabalpur", "icon": "🛫" },
+{ "name": "Kanha", "icon": "🌿" },
+{ "name": "Bandhavgarh", "icon": "🧗" },
+{ "name": "Delhi", "icon": "✈️" },
+{ "name": "Corbett", "icon": "🐅" },
+{ "name": "Delhi", "icon": "🏁" }
+],
+"dayByDay": [
+{
+"dayNumber": 1,
+"title": "Delhi Arrival: A Threshold of Tales",
+"description": "Arrive in Delhi, the great confluence of empires and whispers. Our representative greets you with warmth and an unhurried smile, guiding you through a seamless transfer to your hotel. The city hums with a quiet electricity—spice-scented lanes, domes in silhouette, a sky that remembers monsoons and moonlit processions. Rest, recalibrate, and let your senses acclimate; tomorrow, we follow the spoor of stories into the heart of the forest."
+},
+{
+"dayNumber": 2,
+"title": "Delhi to Jabalpur to Kanha: Into the Sal Cathedral",
+"description": "A morning flight to Jabalpur carries us toward central India’s green heart. The drive to Kanha sways through villages where mahua blossoms sweeten the air, and forest paths braid into a canopy cathedral of sal and bamboo. Check into your lodge—earth-toned, birdsong-laced, and embraced by the forest’s living breath. As dusk arrives, cicadas strike up a chorus and the forest reveals its old soul in lantern light. Tomorrow, we enter the meadows where barasingha once danced on the edge of extinction and now thrive like a benediction."
+},
+
+{
+  "video": {
+    "url": "/static/images/kanha-bandhavgarh-corbett/kanha-dawn-drive.mp4",
+    "poster": "/static/images/kanha-bandhavgarh-corbett/kanha-dawn-drive.jpg",
+    "caption": "Dawn over Kanha—mist lifting from meadows, hope rising with every pawprint.",
+    "credit": "Video by Pexels"
+  }
+},
+
+{
+  "dayNumber": 3,
+  "title": "Kanha Safari: Meadows of the Barasingha",
+  "description": "Wake before the sun and sip tea that tastes like first light. Enter Kanha as the gate yawns open and fog grazes the ankle-high grasses. The jeep whispers along tracks where tiger pugmarks write their calligraphy in dust. Barasingha—golden, gentle, miraculous—stand like guardian spirits in dewy meadows. Kingfishers strike blue fire along streams, while drongos etch black arrows against a soft sky. Afternoon safari deepens the spell: a sambar’s alarm call, a langur’s nervous hush, and the sudden hush that says—He is near. Night returns you to the lodge, where flame and folklore keep each other warm."
+},
+{
+  "dayNumber": 4,
+  "title": "Kanha Immersion: The Language of Tracks",
+  "description": "This day is about learning to read the forest like a poem. Your naturalist deciphers tracks and signs—scratches on bark, a pugmark’s depth, a herd’s chosen path. Between safaris, rest in the shade: sal leaves whisper stories of rain, hornbill flight and sunlit migrations. In the afternoon, the forest’s pulse quickens; the air tastes of resin and old secrets. If the tiger’s path crosses yours today, it will feel like the turning of a page you’ve always carried."
+},
+{
+  "dayNumber": 5,
+  "title": "Kanha to Bandhavgarh: From Meadow Lilt to Cliff Legend",
+  "description": "The road rises gently as Kanha’s meadows give way to Bandhavgarh’s dramatic cliffs and fortress ruins. Check into your lodge—stone, timber and silence woven into comfortable embrace. Evening brings the scent of woodsmoke and a local folk tale told under a scatter of bright stars: of tigers that guard old stairways, of kings who listened to the wind, of a forest that was always listening back."
+},
+
+{
+  "video": {
+    "url": "/static/images/kanha-bandhavgarh-corbett/bandhavgarh-fort-cliffs.mp4",
+    "poster": "/static/images/kanha-bandhavgarh-corbett/bandhavgarh-fort-cliffs.jpg",
+    "caption": "Bandhavgarh’s relic cliffs and rustling sal—a stage set for legends.",
+    "credit": "Video by Pexels"
+  }
+},
+
+{
+  "dayNumber": 6,
+  "title": "Bandhavgarh Safari: The Tiger and the Citadel",
+  "description": "At daybreak, we drive into Bandhavgarh where the land rises, breath held between ravines and slopes. Here, tigers walk ancient corridors and stories perch on every rocky outcrop. A barking deer’s cry fractures the morning. Your guide reads the air—the old ways, the old signs. Perhaps a striped flank through bamboo, perhaps the thunder of a sambar bolting, perhaps only silence—and yet that silence is a presence, a circle drawn around you and the unseen."
+},
+{
+  "dayNumber": 7,
+  "title": "Bandhavgarh: Clues, Calls, and Quiet Revelation",
+  "description": "Morning’s safari brings new clues: drag marks, the crayoned brush of a tail on dust, a fresh print at the waterline. The forest sharpens you—your senses wake one by one. Between outings, rest and let the day’s notes settle. Return in the afternoon to rinse your eyes in green—peafowl fanning iridescence, rollers painting sky with cobalt. If fortune favors, you’ll catch a tiger crossing a firebreak, a moment both thunder and prayer."
+},
+{
+  "dayNumber": 8,
+  "title": "Bandhavgarh to Delhi: A Pause Between Tales",
+  "description": "After a final morning in Bandhavgarh, we travel back to Jabalpur for your flight to Delhi. Tonight is a soft interlude—city comforts and a gentle exhale between forests. Sort through photographs, recall alarm calls and sunlit dust-motes, and let the city’s low murmur cradle your dreams of the Ramganga river ahead."
+},
+
+{
+  "video": {
+    "url": "/static/images/kanha-bandhavgarh-corbett/ramganga-river-glide.mp4",
+    "poster": "/static/images/kanha-bandhavgarh-corbett/ramganga-river-glide.png",
+    "caption": "Ramganga’s green glass—kingfishers, pebbled bends, and listening forests.",
+    "credit": "Video by Pexels"
+  }
+},
+
+{
+  "dayNumber": 9,
+  "title": "Delhi to Corbett: Where River Meets Forest",
+  "description": "We drive north toward the Himalayan foothills. Corbett greets you with riverine forests, saal sentinels, and meadows rimmed by blue hills. Your lodge leans into nature—open verandahs, river-breeze afternoons, and the hush of star-heavy nights. As dusk strokes the Ramganga into bronze, you feel the forest’s gaze turn kind, old and welcoming."
+},
+{
+  "dayNumber": 10,
+  "title": "Corbett Safari: River, Meadow, Shadow",
+  "description": "Safaris in Corbett move like water, flowing between riverbanks and grasslands. We trace the Ramganga’s gentle curves, listening for fish eagles, watching for roll of mahseer in emerald pools. Deer browse at the forest’s hemline; langurs hold court in fig trees. A distant alarm call might pull us to a bend where tiger and river share the same reflected sky. Evening returns you to a hearth, a story, and the slow page-turn of night."
+},
+{
+  "dayNumber": 11,
+  "title": "Corbett: The Old Ways, The Wide Skies",
+  "description": "Today’s rhythm is unhurried and attuned. We explore different zones—perhaps grasslands kissed by light, perhaps the shadowed stillness of a sal avenue. Your naturalist unspools forest lore: the nesting of hornbills, the mapping of territories, how river and cat and tree are old kin. You begin to hear the forest thinking, and it feels like remembering."
+},
+{
+  "dayNumber": 12,
+  "title": "Corbett to Delhi: River to Road, Story to City",
+  "description": "After a final morning breathing in Corbett’s green hush, we return to Delhi by road. The city greets you not as a stranger but as a storyteller who has come home to speak. Check into your hotel and rest—tonight is for revisiting memories that still carry the scent of sal and sunlight."
+},
+
+{
+  "video": {
+    "url": "/static/images/kanha-bandhavgarh-corbett/delhi-night-drive.mp4",
+    "poster": "/static/images/kanha-bandhavgarh-corbett/delhi-night-drive.jpg",
+    "caption": "From forest hush to city auto—closing the circle with quiet grace.",
+    "credit": "Video by Mehtab Singh Edhan"
+  }
+},
+
+{
+  "dayNumber": 13,
+  "title": "Departure: Carrying the Forest Within",
+  "description": "After breakfast, transfer to the airport for your onward journey. The forest has its way of staying—barasingha in a meadow of the mind, a cliff-side trail in Bandhavgarh, the Ramganga’s liquid light. You leave with fuller lungs, softer eyes, and the ancient rhythm of paw and river woven into your step."
+}
+],
+"inclusions": [
+"Accommodation on twin sharing basis in wilderness lodges and comfortable city hotels.",
+"Meals as per plan (typically breakfast and dinner in cities; full board in lodges).",
+"All airport/rail transfers and surface travel in private AC vehicle.",
+"Morning and afternoon jeep safaris in national parks as per itinerary/permits.",
+"Expert naturalist/guide services on all safaris.",
+"All currently applicable taxes."
+],
+"exclusions": [
+"Any domestic/international airfare and rail fare unless specified.",
+"National park entrance fees and camera fees (as applicable).",
+"Optional activities, tips, laundry, beverages and personal expenses.",
+"Travel insurance, medical costs, or emergency evacuation.",
+"Anything not mentioned under ‘Inclusions’."
+],
+"specialist": {
+"name": "Your Name Here",
+"role": "Wildlife Specialist",
+"photo": "/static/images/specialist-placeholder.jpg",
+"whatsapp": "910000000000"
+},
+"otherTours": [
+{
+"title": "Snow Leopard Spiti Valley", 
+"image": "/static/images/snowleopard-expidition-spiti/snow-leopard-expidition-spiti-tour.png", 
+"url": "/itineraries/snow-leopard-expedition-spiti"
+},
+{
+"title": "Ghats, Ganga & Wildlife", 
+"image": "/static/images/snowleopard-expidition-spiti/ghats-ganga-wildlife.png", 
+"url": "/itineraries/ghats-ganga-wildlife"
+},
+{
+"title": "Kerala Backwater Bliss",
+"image": "https://placehold.co/600x400/0b3d2e/d8b36a?text=Kerala",
+"url": "/itineraries/kerala-backwaters"
+},
+{
+"title": "Himalayan Spiritual Journey",
+"image": "https://placehold.co/600x400/0b3d2e/d8b36a?text=Himalayas",
+"url": "/itineraries/himalayan-journey"
+}
+]
+}
