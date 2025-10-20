@@ -6,227 +6,231 @@
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <meta name="description" content="{{.SEO.MetaDescription}}" />
   <link rel="icon" type="image/png" href="/static/logo/jetset-travel-logo-512.png" />
-  <!-- Updated CSS Version Number to 4.3 -->
-  <link rel="stylesheet" href="/static/css/site.css?v=4.3" />
+  <link rel="stylesheet" href="/static/css/site.css?v=4.4" />
 </head>
 <body>
 
   <header class="site-header">
     <div class="container header-inner">
-      <a class="brand" href="/">
-        <img class="brand-logo" src="/static/logo/jetset-travel-logo-512.png" alt="Jetset Travel" />
-        <span class="brand-text">Jetset Travel</span>
-      </a>
-      
-      <!-- NEW MENU STRUCTURE -->
-      <nav class="site-nav">
-        <ul class="nav-list">
-          <li class="nav-item"><a href="/">Home</a></li>
-          <li class="nav-item has-dropdown">
-            <a href="#">Tours</a>
-            <ul class="dropdown-menu">
-              <li class="dropdown-item"><a href="/itineraries/ghats-ganga-wildlife">Ghats, Ganga & Wildlife</a></li>
-              <!-- Add your new tours here, e.g.: -->
-              <!-- <li class="dropdown-item"><a href="/itineraries/himalayan-kingdoms">Himalayan Kingdoms</a></li> -->
-            </ul>
-          </li>
-          <li class="nav-item"><a href="https://www.jetset.travel.in" target="_blank" rel="noopener">Main Site</a></li>
-        </ul>
-      </nav>
-      
-      <button class="mobile-nav-toggle" aria-label="Toggle navigation menu">
-        <span class="hamburger-bar"></span>
-        <span class="hamburger-bar"></span>
-        <span class="hamburger-bar"></span>
-      </button>
+    <a class="brand" href="https://jetset.travel.in">
+    <img class="brand-logo" src="/static/logo/jetset-travel-logo-512.png" alt="Jetset Travel" />
+    <span class="brand-text">Jetset Travel</span>
+    </a>
+    
+    <nav class="site-nav">
+    <ul class="nav-list">
+    <li class="nav-item"><a href="https://jetset.travel.in">Home</a></li>
+    <li class="nav-item has-dropdown">
+    <a href="#">Tours</a>
+    <ul class="dropdown-menu">
+    <li class="dropdown-item"><a href="/itineraries/ghats-ganga-wildlife">Ghats, Ganga & Wildlife</a></li>
+    <li class="dropdown-item"><a href="/itineraries/snow-leopard-expedition-spiti">Snow Leopard Expedition</a></li>
+    <li class="dropdown-item"><a href="/itineraries/kanha-bandhavgarh-corbett">Kanha Bandhavgarh Corbett</a></li>
+    <li class="dropdown-item"><a href="/itineraries/south-india-beaches-backwaters">South India: Beaches & Backwaters</a></li>
+    </ul>
+    </li>
+    <li class="nav-item"><a href="https://wa.me/919953573018" target="_blank" rel="noopener">Contact Us</a></li>
+    </ul>
+    </nav>
+    
+    <button class="mobile-nav-toggle" aria-label="Toggle navigation menu">
+    <span class="hamburger-bar"></span>
+    <span class="hamburger-bar"></span>
+    <span class="hamburger-bar"></span>
+    </button>
     </div>
   </header>
 
   <main>
     <section class="hero hero--itinerary">
-      <video class="hero-video" autoplay muted playsinline loop poster="{{.Hero.Poster}}">
-        <source src="{{.Hero.Video}}" type="video/mp4" />
-      </video>
-      <div class="hero-overlay"></div>
-      <div class="container hero-content">
-        <h1>{{.Title}}</h1>
-        <p>{{.DurationDays}} Days of Unforgettable Wildlife & Culture</p>
-      </div>
+    <video class="hero-video" autoplay muted playsinline loop poster="{{.Hero.Poster}}">
+    <source src="{{.Hero.Video}}" type="video/mp4" />
+    </video>
+    <div class="hero-overlay"></div>
+    <div class="container hero-content">
+    <h1>{{.Title}}</h1>
+    <p>{{.DurationDays}} Days of Unforgettable Wildlife & Culture</p>
+    </div>
     </section>
 
     <nav class="jump-cards">
-      <div class="container">
-        <div class="jump-cards__row">
-          <a href="#highlights" class="jump-card"><div class="jump-card__icon">📸</div><div><div class="jump-card__title">Highlights</div><div class="jump-card__desc">Key experiences</div></div></a>
-          <a href="#journey" class="jump-card"><div class="jump-card__icon">🗺️</div><div><div class="jump-card__title">The Journey</div><div class="jump-card__desc">Places you'll visit</div></div></a>
-          <a href="#itinerary" class="jump-card"><div class="jump-card__icon">🗓️</div><div><div class="jump-card__title">Day-by-Day</div><div class="jump-card__desc">Full itinerary</div></div></a>
-          <a href="#inclusions" class="jump-card"><div class="jump-card__icon">✅</div><div><div class="jump-card__title">Inclusions</div><div class="jump-card__desc">What's included</div></div></a>
-        </div>
-      </div>
+    <div class="container">
+    <div class="jump-cards__row">
+    <a href="#highlights" class="jump-card"><div class="jump-card__icon">📸</div><div><div class="jump-card__title">Highlights</div><div class="jump-card__desc">Key experiences</div></div></a>
+    <a href="#journey" class="jump-card"><div class="jump-card__icon">🗺️</div><div><div class="jump-card__title">The Journey</div><div class="jump-card__desc">Places you'll visit</div></div></a>
+    <a href="#itinerary" class="jump-card"><div class="jump-card__icon">🗓️</div><div><div class="jump-card__title">Day-by-Day</div><div class="jump-card__desc">Full itinerary</div></div></a>
+    <a href="#inclusions" class="jump-card"><div class="jump-card__icon">✅</div><div><div class="jump-card__title">Inclusions</div><div class="jump-card__desc">What's included</div></div></a>
+    </div>
+    </div>
     </nav>
 
     <div class="container section-pad">
-      <section id="highlights" class="slider-section">
-        <h2 class="section-title">Trip Highlights</h2>
-        <div class="slider-container">
-          <div class="slider-track">
-            {{range .Highlights}}
-              <div class="highlight-card">
-                <img src="{{.Image}}" alt="{{.Title}}" class="highlight-card__img">
-                {{if .Icon}}
-                  <div class="highlight-card__icon">{{.Icon}}</div>
-                {{end}}
-                <div class="highlight-card__overlay"></div>
-                <div class="highlight-card__content">
-                  <h3 class="highlight-card__title">{{.Title}}</h3>
-                  <p class="highlight-card__desc">{{.Description}}</p>
-                </div>
-              </div>
-            {{end}}
-          </div>
-          <button class="slider-arrow slider-arrow--prev">❮</button>
-          <button class="slider-arrow slider-arrow--next">❯</button>
-        </div>
-      </section>
-      
-      <section id="journey" class="slider-section section-pad">
-        <h2 class="section-title">The Journey</h2>
-        <div class="slider-container">
-          <div class="slider-track places-track">
-            {{range .PlacesVisited}}
-              <div class="jump-card">
-                <div class="jump-card__icon">{{.Icon}}</div>
-                <div><div class="jump-card__title">{{.Name}}</div></div>
-              </div>
-            {{end}}
-          </div>
-          <button class="slider-arrow slider-arrow--prev">❮</button>
-          <button class="slider-arrow slider-arrow--next">❯</button>
-        </div>
-      </section>
-      
-      <section id="itinerary" class="section-pad">
-        <h2 class="section-title">Day-by-Day Itinerary</h2>
-        <div class="day-by-day-container">
-          {{range .DayByDay}}
-            {{if .Video}}
-              <div class="day-block day-block--video">
-                <div class="day-video-wrapper">
-                  <video class="day-video" autoplay muted loop playsinline poster="{{.Video.Poster}}">
-                    <source src="{{.Video.URL}}" type="video/mp4" />
-                  </video>
-                </div>
-                <p class="day-video-caption">{{.Video.Caption}}</p>
-                {{if .Video.Credit}}
-                  <p class="day-video-credit">{{.Video.Credit}}</p>
-                {{end}}
-              </div>
-            {{else}}
-              <div class="day-block day-block--text">
-                <h3 class="day-title">Day {{.DayNumber}}: {{.Title}}</h3>
-                <p class="day-description">{{.Description}}</p>
-              </div>
-            {{end}}
-          {{end}}
-        </div>
-      </section>
+    <section id="highlights" class="slider-section">
+    <h2 class="section-title">Trip Highlights</h2>
+    <div class="slider-container">
+    <div class="slider-track">
+    {{range .Highlights}}
+    <div class="highlight-card">
+    <img src="{{.Image}}" alt="{{.Title}}" class="highlight-card__img">
+    {{if .Icon}}
+    <div class="highlight-card__icon">{{.Icon}}</div>
+    {{end}}
+    <div class="highlight-card__overlay"></div>
+    <div class="highlight-card__content">
+    <h3 class="highlight-card__title">{{.Title}}</h3>
+    <p class="highlight-card__desc">{{.Description}}</p>
+    </div>
+    </div>
+    {{end}}
+    </div>
+    <button class="slider-arrow slider-arrow--prev">❮</button>
+    <button class="slider-arrow slider-arrow--next">❯</button>
+    </div>
+    </section>
+    
+    <section id="journey" class="slider-section section-pad">
+    <h2 class="section-title">The Journey</h2>
+    <div class="slider-container">
+    <div class="slider-track places-track">
+    {{range .PlacesVisited}}
+    <div class="jump-card">
+    <div class="jump-card__icon">{{.Icon}}</div>
+    <div><div class="jump-card__title">{{.Name}}</div></div>
+    </div>
+    {{end}}
+    </div>
+    <button class="slider-arrow slider-arrow--prev">❮</button>
+    <button class="slider-arrow slider-arrow--next">❯</button>
+    </div>
+    </section>
+    
+    <section id="itinerary" class="section-pad">
+    <h2 class="section-title">Day-by-Day Itinerary</h2>
+    <div class="day-by-day-container">
+    {{range .DayByDay}}
+    {{if .Video}}
+    <div class="day-block day-block--video">
+    <div class="day-video-wrapper">
+    <video class="day-video" autoplay muted loop playsinline poster="{{.Video.Poster}}">
+    <source src="{{.Video.URL}}" type="video/mp4" />
+    </video>
+    </div>
+    <p class="day-video-caption">{{.Video.Caption}}</p>
+    {{if .Video.Credit}}
+    <p class="day-video-credit">{{.Video.Credit}}</p>
+    {{end}}
+    </div>
+    {{else}}
+    <div class="day-block day-block--text">
+    <h3 class="day-title">Day {{.DayNumber}}: {{.Title}}</h3>
+    <p class="day-description">{{.Description}}</p>
+    </div>
+    {{end}}
+    {{end}}
+    </div>
+    </section>
 
-      <section id="inclusions" class="section-pad">
-        <h2 class="section-title">Tour Inclusions</h2>
-        <div class="inclusions-container">
-          <div class="inclusion-box">
-            <h3 class="inclusion-title">What's Included</h3>
-            <ul class="inclusion-list">
-              {{range .Inclusions}}
-                <li>{{.}}</li>
-              {{end}}
-            </ul>
-          </div>
-          <div class="inclusion-box">
-            <h3 class="inclusion-title">What's Not Included</h3>
-            <ul class="inclusion-list">
-              {{range .Exclusions}}
-                <li>{{.}}</li>
-              {{end}}
-            </ul>
-          </div>
-        </div>
-      </section>
+    <section id="inclusions" class="section-pad">
+    <h2 class="section-title">Tour Inclusions</h2>
+    <div class="inclusions-container">
+    <div class="inclusion-box">
+    <h3 class="inclusion-title">What's Included</h3>
+    <ul class="inclusion-list">
+    {{range .Inclusions}}
+    <li>{{.}}</li>
+    {{end}}
+    </ul>
+    </div>
+    <div class="inclusion-box">
+    <h3 class="inclusion-title">What's Not Included</h3>
+    <ul class="inclusion-list">
+    {{range .Exclusions}}
+    <li>{{.}}</li>
+    {{end}}
+    </ul>
+    </div>
+    </div>
+    </section>
     </div>
 
     <section id="other-tours" class="slider-section">
-      <div class="container section-pad">
-        <h2 class="section-title">Explore Other Tours</h2>
-        <div class="slider-container">
-          <div class="slider-track">
-            {{range .OtherTours}}
-              <a href="{{.URL}}" class="tour-card">
-                <img src="{{.Image}}" alt="{{.Title}}" class="tour-card__img">
-                <div class="tour-card__overlay"></div>
-                <h3 class="tour-card__title">{{.Title}}</h3>
-              </a>
-            {{end}}
-          </div>
-          <button class="slider-arrow slider-arrow--prev">❮</button>
-          <button class="slider-arrow slider-arrow--next">❯</button>
-        </div>
-      </div>
+    <div class="container section-pad">
+    <h2 class="section-title">Explore Other Tours</h2>
+    <div class="slider-container">
+    <div class="slider-track">
+    {{range .OtherTours}}
+    <a href="{{.URL}}" class="tour-card">
+    <img src="{{.Image}}" alt="{{.Title}}" class="tour-card__img">
+    <div class="tour-card__overlay"></div>
+    <h3 class="tour-card__title">{{.Title}}</h3>
+    </a>
+    {{end}}
+    </div>
+    <button class="slider-arrow slider-arrow--prev">❮</button>
+    <button class="slider-arrow slider-arrow--next">❯</button>
+    </div>
+    </div>
     </section>
   </main>
 
   <footer class="site-footer">
     <div class="container footer-grid">
-      <div class="footer-column">
-        <h3 class="footer-title">Plan Your Trip</h3>
-        <p class="footer-subtitle">Fill out the form below and one of our travel experts will be in touch shortly.</p>
-        <form class="footer-form" action="mailto:info@jetset.travel.in" method="post" enctype="text/plain">
-          <input type="text" name="name" placeholder="Your Name" required>
-          <input type="email" name="email" placeholder="Email Address" required>
-          <input type="tel" name="mobile" placeholder="Mobile Number">
-          <input type="text" name="duration" placeholder="How many days to explore?">
-          <button type="submit">Send Enquiry</button>
-        </form>
-      </div>
-      <div class="footer-column">
-        <h3 class="footer-title">Quick Links</h3>
-        <ul class="footer-links">
-          <li><a href="/">Home</a></li>
-          <li><a href="/itineraries/ghats-ganga-wildlife">Tours</a></li>
-          <li><a href="#">About Us</a></li>
-          <li><a href="#">Contact</a></li>
-        </ul>
-        <h3 class="footer-title">Connect With Us</h3>
-        <ul class="footer-links">
-          <li><a href="#">Facebook</a></li>
-          <li><a href="#">Instagram</a></li>
-        </ul>
-      </div>
+    <div class="footer-column">
+    <h3 class="footer-title">Plan Your Trip</h3>
+    <p class="footer-subtitle">Fill out the form below and one of our travel experts will be in touch shortly.</p>
+    <form class="footer-form" action="mailto:your-email@jetset.travel.in" method="post" enctype="text/plain">
+    <input type="text" name="name" placeholder="Your Name" required>
+    <input type="email" name="email" placeholder="Email Address" required>
+    <input type="tel" name="mobile" placeholder="Mobile Number">
+    <input type="text" name="duration" placeholder="How many days to explore?">
+    <button type="submit">Send Enquiry</button>
+    </form>
+    </div>
+    <div class="footer-column">
+    <h3 class="footer-title">Quick Links</h3>
+    <ul class="footer-links">
+    <li><a href="https://jetset.travel.in">Home</a></li>
+    <li><a href="#">Tours</a></li>
+    <li><a href="https://jetset.travel.in#about">About Us</a></li>
+    <li><a href="https://wa.me/919820048490" target="_blank">Contact</a></li>
+    </ul>
+    <h3 class="footer-title">Connect With Us</h3>
+    <ul class="footer-links">
+    <li><a href="#">Facebook</a></li>
+    <li><a href="#">Instagram</a></li>
+    </ul>
+    </div>
     </div>
     <div class="footer-bottom">
-      <div class="container">
-        © 2025 Jetset Travel. All Rights Reserved.
-      </div>
+    <div class="container">
+    © 2025 Jetset Travel. All Rights Reserved.
+    </div>
     </div>
   </footer>
 
   <script>
     document.addEventListener('DOMContentLoaded', function() {
-      const navToggle = document.querySelector('.mobile-nav-toggle');
-      const siteNav = document.querySelector('.site-nav');
-      if (navToggle && siteNav) { navToggle.addEventListener('click', function() { siteNav.classList.toggle('is-open'); navToggle.classList.toggle('is-active'); document.body.classList.toggle('no-scroll'); }); }
-      
-      const setupSlider = (sliderId) => {
-        const slider = document.querySelector(sliderId); if (!slider) return;
-        const track = slider.querySelector('.slider-track'); const prevButton = slider.querySelector('.slider-arrow--prev'); const nextButton = slider.querySelector('.slider-arrow--next'); const container = slider.querySelector('.slider-container'); if (!track || !prevButton || !nextButton || !container) return;
-        nextButton.addEventListener('click', () => { track.scrollBy({ left: container.offsetWidth, behavior: 'smooth' }); });
-        prevButton.addEventListener('click', () => { track.scrollBy({ left: -container.offsetWidth, behavior: 'smooth' }); });
-      };
+    const navToggle = document.querySelector('.mobile-nav-toggle');
+    const siteNav = document.querySelector('.site-nav');
+    if (navToggle && siteNav) { navToggle.addEventListener('click', function() { siteNav.classList.toggle('is-open'); navToggle.classList.toggle('is-active'); document.body.classList.toggle('no-scroll'); }); }
+    
+    const setupSlider = (sliderId) => {
+    const slider = document.querySelector(sliderId); if (!slider) return;
+    const track = slider.querySelector('.slider-track'); const prevButton = slider.querySelector('.slider-arrow--prev'); const nextButton = slider.querySelector('.slider-arrow--next'); const container = slider.querySelector('.slider-container'); if (!track || !prevButton || !nextButton || !container) return;
+    nextButton.addEventListener('click', () => { track.scrollBy({ left: container.offsetWidth, behavior: 'smooth' }); });
+    prevButton.addEventListener('click', () => { track.scrollBy({ left: -container.offsetWidth, behavior: 'smooth' }); });
+    };
 
-      setupSlider('#highlights');
-      setupSlider('#journey');
-      setupSlider('#other-tours');
+    setupSlider('#highlights');
+    setupSlider('#journey');
+    setupSlider('#other-tours');
     });
   </script>
 
+	<!-- WhatsApp Floating Button -->
+	<a href="https://wa.me/919953573018?text=Hi!%20I%27m%20interested%20in%20your%20tours" class="whatsapp-float" target="_blank" rel="noopener">
+	  <span class="whatsapp-float__icon">💬</span>
+	  <span class="whatsapp-float__text">Travel Expert</span>
+	</a>
 </body>
 </html>
