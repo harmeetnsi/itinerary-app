@@ -74,7 +74,9 @@
 "otherTours": [
 { "title": "Ghats, Ganga & Wildlife", "image": "/static/images/snowleopard-expidition-spiti/ghats-ganga-wildlife.png", "url": "/itineraries/ghats-ganga-wildlife" },
  { "title": "Kanha Bandhavgarh Corbett", "image": "/static/images/kanha-bandhavgarh-corbett/other-tours-kanha-bandhavgarh-corbett-tour.jpg?text=Tige Kingdom", "url": "/itineraries/kanha-bandhavgarh-corbett" },
-{ "title": "Rajasthan Royal Heritage", "image": "https://placehold.co/600x400/0b3d2e/d8b36a?text=Rajasthan", "url": "/itineraries/rajasthan-heritage" },
+{ "title": "South India Tour",
+"image": "/static/images/south-india-beaches-backwaters/south-india-beaches-backwaters.jpg?text=suth+india+tour",
+"url": "/itineraries/south-india-beaches-backwaters" },
 { "title": "Golden Triangle Odyssey", "image": "https://placehold.co/600x400/0b3d2e/d8b36a?text=Golden+Triangle", "url": "/itineraries/golden-triangle" }
 ]
 }

@@ -1,0 +1,205 @@
+{
+  "title": "14 Dreamy Days in South India: Beaches, Backwaters & Wildlife",
+  "slug": "south-india-beaches-backwaters",
+  "duration_days": 14,
+  "hero": {
+    "video": "/static/images/south-india-beaches-backwaters/south-india-hero.mp4",
+    "poster": "/static/images/south-india-beaches-backwaters/south-india-hero.jpg"
+  },
+  "seo": {
+    "meta_title": "14-Day South India Tour | Kerala Beaches, Backwaters & Wildlife",
+    "meta_description": "Explore Kerala's magic in 14 dreamy days—Kochi's colonial charm, Alleppey's backwaters, Marari's beaches, Munnar's tea hills, Periyar's wildlife, and Varkala's clifftop sunsets. Slow travel, deep experiences."
+  },
+  "highlights": [
+    {
+      "title": "Alleppey Backwaters",
+      "description": "Drift through watery labyrinths on a premium houseboat, where time moves to the rhythm of the water.",
+      "image": "/static/images/south-india-beaches-backwaters/highlight-backwaters.jpg",
+      "icon": "🛶"
+    },
+    {
+      "title": "Munnar Tea Gardens",
+      "description": "Walk through emerald-quilted hills, sip stories of leaves and labor in the heart of tea country.",
+      "image": "/static/images/south-india-beaches-backwaters/highlight-munnar-tea.jpg",
+      "icon": "🍵"
+    },
+    {
+      "title": "Periyar Wildlife",
+      "description": "Bamboo rafting, jungle treks, and elephant sightings in one of India's finest wildlife sanctuaries.",
+      "image": "/static/images/south-india-beaches-backwaters/highlight-periyar.webp",
+      "icon": "🐘"
+    },
+    {
+      "title": "Varkala Cliffs",
+      "description": "Watch sunsets paint the sky from dramatic red cliffs above the sapphire Arabian Sea.",
+      "image": "/static/images/south-india-beaches-backwaters/highlight-varkala.jpg",
+      "icon": "🌅"
+    }
+  ],
+  "placesVisited": [
+    { "name": "Mumbai", "icon": "✈️" },
+    { "name": "Kochi", "icon": "🏛️" },
+    { "name": "Alleppey", "icon": "🛶" },
+    { "name": "Marari Beach", "icon": "🏖️" },
+    { "name": "Munnar", "icon": "🍵" },
+    { "name": "Periyar", "icon": "🐘" },
+    { "name": "Varkala", "icon": "🌅" },
+    { "name": "Trivandrum", "icon": "🛫" }
+  ],
+  "dayByDay": [
+    {
+      "dayNumber": 1,
+      "title": "Arrival in Kochi: A Fairytale Beginning",
+      "description": "Your journey begins as you fly into Kochi and transfer to the historic heart of Fort Kochi. Here, time seems to move at a different pace, under the shade of ancient rain trees and along storied lanes. The air is thick with the scent of spices and the sea, and every corner reveals a piece of its colonial past. As the sun begins to set, watch the iconic Chinese fishing nets create stark, beautiful silhouettes against the vibrant sky, a timeless spectacle that has graced this coastline for centuries. The evening offers a chance to immerse yourself in Kerala's rich culture with an optional Kathakali performance, a traditional dance form that tells stories through expressive movements and elaborate costumes. Overnight in Fort Kochi—an easy start, an early night, and the promise of adventures to come."
+    },
+    {
+      "dayNumber": 2,
+      "title": "Alleppey: Gliding Through Watery Labyrinths",
+      "description": "A short and scenic drive takes you from the city's charm to the tranquil backwaters of Alleppey. Here, a watery world unfolds, a labyrinth of canals and lagoons where life moves to the gentle rhythm of the water. Kingfishers add a flash of sapphire to the lush greenery, and coconut palms lean in to admire their own reflections. Check into a premium houseboat and let the gentle lapping of the water be your soundtrack. As you drift along, enjoy a delicious lunch prepared on board, and watch the world go by from the comfort of your deck. The golden hour here is pure magic, a time when the water turns to liquid gold and the sky is painted in hues of orange and pink. Tonight, sleep to the lullaby of the backwaters."
+    },
+
+    {
+      "video": {
+        "url": "/static/images/south-india-beaches-backwaters/alleppey-backwaters.mp4",
+        "poster": "/static/images/south-india-beaches-backwaters/alleppey-backwaters.JPG",
+        "caption": "Alleppey's liquid labyrinths—where kingfishers flash and time forgets its watch.",
+        "credit": "Video by Pexels"
+      }
+    },
+
+    {
+      "dayNumber": 3,
+      "title": "Marari Beach: Dawn Canals and Seaside Exhale",
+      "description": "Wake up to the soft light of dawn and embark on a canoe ride through the narrower, more intimate canals. This is a chance to witness village life as it awakens—the steam rising from a cup of chai, the gentle morning ragas, the quiet hum of a new day. After this serene experience, it's time to head to the coast. A short transfer brings you to Marari Beach, a pristine stretch of sand fringed with palm trees. This is a place to truly unwind, to feel the sand between your toes and the warmth of the sun on your skin. Indulge in a rejuvenating Ayurvedic massage or simply float in the warm, inviting waters of the Arabian Sea. Tonight begins your two-night stay in this barefoot paradise."
+    },
+    {
+      "dayNumber": 4,
+      "title": "Marari: A Day Made of Silk",
+      "description": "Today is a day of pure relaxation, a day to do as much or as little as you please. Wake with the waves, find a comfortable spot to read, nap in the shade of a palm tree, and repeat. If you're feeling a bit more active, you can take a bicycle and explore the nearby villages, getting a glimpse into the local way of life. As evening approaches, join a sunset yoga session on the sand, a perfect way to connect with your surroundings and find your inner peace. For dinner, an optional seafood barbecue under the stars provides a magical end to a perfect day. Sleep comes easy here, cradled by the sound of the sea."
+    },
+    {
+      "dayNumber": 5,
+      "title": "Munnar: The Velvet Road to Tea Country",
+      "description": "Today, you'll leave the coast behind and embark on a scenic journey up into the Western Ghats. The road climbs and winds, and with every turn, the air grows cooler and the landscape transforms. You're entering Munnar, a land of rolling hills carpeted in a million shades of green. This is tea country, and the sight of the meticulously manicured tea gardens is truly breathtaking. Check into your hotel, which will likely offer stunning valley views, and as dusk settles, enjoy a slow, mindful tea tasting, savoring the flavors of the region. Tonight marks the beginning of three nights in this emerald wonderland."
+    },
+
+    {
+      "video": {
+        "url": "/static/images/south-india-beaches-backwaters/munnar-tea-gardens.mp4",
+        "poster": "/static/images/south-india-beaches-backwaters/munnar-tea-gardens.JPG",
+        "caption": "Munnar's emerald quilt—where every hillside whispers stories of tea and mist.",
+        "credit": "Video by Pexels"
+      }
+    },
+
+    {
+      "dayNumber": 6,
+      "title": "Munnar's Emerald Quilt",
+      "description": "Immerse yourself in the world of tea with a guided walk through the gardens. Learn about the process of tea cultivation and the lives of the people who work here. Visit a working tea factory and witness the journey of the tea leaf from the plant to your cup. Sip stories of leaves and labor as you walk among the pickers. The afternoon is yours to relax or to take a gentle walk to the beautiful Attukad waterfalls, where you can enjoy the cool spray and the lush surroundings. Return to your hotel as the mist rolls in, wrapping the hills in a soft, white embrace."
+    },
+    {
+      "dayNumber": 7,
+      "title": "Clouds, Echoes, and Rare Hooves",
+      "description": "An early start today takes you to Eravikulam National Park, a UNESCO World Heritage site and home to the endangered Nilgiri tahr. As you explore the mist-trimmed slopes, you'll be rewarded with stunning views and, if you're lucky, a sighting of this rare mountain goat grazing on the high grasslands. Later, visit Echo Point and Top Station, two popular viewpoints that offer cloud-lapped lookouts and panoramic vistas of the surrounding hills and valleys. In the evening, you can opt for a visit to a spice garden, where you can learn about the various spices that grow in this region. Tonight, your final night in Munnar, sleep comes wrapped in cool mountain air."
+    },
+    {
+      "dayNumber": 8,
+      "title": "Periyar: Cinnamon Roads to Wildlife",
+      "description": "The journey continues as you leave the tea gardens behind and head towards Periyar, a land where the air is fragrant with the scent of spices like cardamom and cinnamon. This is the gateway to the Periyar Wildlife Sanctuary, one of the finest wildlife reserves in India. After checking into your hotel, take some time to rest and then head to the official Periyar Eco Tourism office to book your forest activities for the next day. This ensures that you get a spot on the popular tours and treks. Tonight, settle into your lodge and let the sounds of the jungle lull you to sleep. You'll spend three nights here, deep in the heart of the forest."
+    },
+
+    {
+      "video": {
+        "url": "/static/images/south-india-beaches-backwaters/periyar-wildlife.mp4",
+        "poster": "/static/images/south-india-beaches-backwaters/periyar-wildlife.JPG",
+        "caption": "Periyar's wild heart—elephants at the water's edge, the forest's pulse in every step.",
+        "credit": "Video by Pexels"
+      }
+    },
+
+    {
+      "dayNumber": 9,
+      "title": "Into the Forest: Periyar Lake and Jungle Paths",
+      "description": "Today is all about exploring the wilderness of Periyar. You have a choice of activities. You can take an early morning boat safari on Periyar Lake, a great way to spot animals like elephants, gaur, and various species of birds as they come to the water's edge to drink. Alternatively, you can opt for a guided nature walk with a forest guard, a more intimate way to experience the jungle and its inhabitants. Listen for the forest's pulse—the alarm call of a sambar, the rustle of a wild boar, the distant trumpet of an elephant. In the afternoon, a visit to a spice plantation is a must. Here, you can see how pepper, vanilla, and other spices are grown and learn about their uses. Pepper vines and vanilla dreams fill the air as you wander through the fragrant gardens."
+    },
+    {
+      "dayNumber": 10,
+      "title": "Bamboo-Raft Fairytale",
+      "description": "For a truly unique experience, embark on a full or half-day bamboo rafting and jungle trek. This is a chance to explore the deeper parts of the forest, away from the crowds. As you float down the river on a bamboo raft, you'll be surrounded by the sights and sounds of the jungle—dappled light filtering through the canopy, quiet water reflecting the green hush, and perhaps a picnic lunch on a secluded riverbank. The trek takes you through dense forests, where you might spot some of the park's more elusive creatures. In the evening, you can witness a performance of Kalaripayattu, a traditional martial art form, or relax with an herbal steam at an Ayurvedic center. Tonight, your final night in Periyar, sleep comes deep and dreamless."
+    },
+    {
+      "dayNumber": 11,
+      "title": "Varkala: Drifting Down to the Sea",
+      "description": "From the cool hills of Periyar, you'll drive down to the coast once again, this time to the cliffside town of Varkala. This is a place of dramatic beauty, where red cliffs stand in stark contrast to the sapphire blue of the Arabian Sea. Cafés and shops perch precariously on the cliff edge, offering stunning views of the ocean. Find a spot to watch the sunset, a daily spectacle that paints the sky in a riot of colors—like the sky is learning a new color. Tonight begins your three-night stay in this bohemian beach town, where time slows and the sea sings you to sleep."
+    },
+    {
+      "dayNumber": 12,
+      "title": "Salt on Skin, Time on Your Side",
+      "description": "Today is another day of leisure, a day to soak up the sun and the laid-back vibe of Varkala. You can spend the day on the beach, take a surf lesson, or try your hand at stand-up paddleboarding at sunrise. The cliff path is perfect for a leisurely stroll, with plenty of cafés to stop at for a refreshing drink or a delicious meal. As you wander, you'll find that time seems to slow down in Varkala, allowing you to truly relax and be present in the moment. Salt on your skin, sand between your toes, and time on your side—this is the essence of Varkala."
+    },
+
+    {
+      "video": {
+        "url": "/static/images/south-india-beaches-backwaters/varkala-town.mp4",
+        "poster": "/static/images/south-india-beaches-backwaters/varkala-town.JPG",
+        "caption": "Varkala's red cliffs and sapphire sea—where sunsets are a daily masterpiece.",
+        "credit": "Video by Aerial Glimpses"
+      }
+    },
+
+    {
+      "dayNumber": 13,
+      "title": "Final Seaside Lullaby",
+      "description": "For your last full day in Kerala, you can choose to explore some of the quieter coves near Varkala, such as Odayam or Edava. These beaches are less crowded and offer a more peaceful experience. Alternatively, you can indulge in a final Ayurvedic ritual, a perfect way to end your journey of relaxation and rejuvenation. In the evening, find a spot to watch your last sunset over the Arabian Sea, savoring the last moments of your Keralan adventure. Tonight, pack your bags with a heart full of memories and a camera full of green, gold, and blue."
+    },
+    {
+      "dayNumber": 14,
+      "title": "Departure: Homeward Bound with Cardamom Dreams",
+      "description": "After a final Keralan breakfast—perhaps appam and stew, or idli with coconut chutney—it's time to head to Trivandrum airport for your flight back to Mumbai. You'll leave with a heart full of memories, a camera full of beautiful pictures, and perhaps a small bag of fragrant spices to remind you of your time in 'God's Own Country'. The journey may be ending, but the stories, the scents, and the serenity of South India will stay with you long after you've returned home."
+    }
+  ],
+  "inclusions": [
+    "Accommodation on twin sharing basis in boutique hotels, beach resorts, and premium houseboats.",
+    "Meals as per plan (typically breakfast; full board on houseboat).",
+    "All transfers and sightseeing by private AC vehicle.",
+    "Houseboat cruise in Alleppey with meals on board.",
+    "Guided tours and activities as mentioned in the itinerary.",
+    "All currently applicable taxes."
+  ],
+  "exclusions": [
+    "Any domestic/international airfare unless specified.",
+    "Entrance fees to monuments, national parks, and museums.",
+    "Optional activities like Kathakali performances, surf lessons, Ayurvedic treatments.",
+    "Meals not mentioned in inclusions.",
+    "Tips, laundry, beverages, and personal expenses.",
+    "Travel insurance and emergency medical costs."
+  ],
+  "specialist": {
+    "name": "Your Name Here",
+    "role": "South India Specialist",
+    "photo": "/static/images/specialist-placeholder.jpg",
+    "whatsapp": "910000000000"
+  },
+  "otherTours": [
+    {
+      "title": "Ghats, Ganga & Wildlife",
+      "image": "/static/images/snowleopard-expidition-spiti/ghats-ganga-wildlife.png?text=Ganga+wilidlife+Tour",
+      "url": "/itineraries/ghats-ganga-wildlife"
+    },
+    {
+      "title": "Kanha Bandhavgarh Corbett",
+      "image": "/static/images/kanha-bandhavgarh-corbett/other-tours-kanha-bandhavgarh-corbett-tour.jpg?text=Tige+safari",
+      "url": "/itineraries/kanha-bandhavgarh-corbett"
+    },
+    {
+      "title": "Snow Leopard Expedition",
+      "image": "/static/images/snowleopard-expidition-spiti/snow-leopard-expidition-spiti-tour.png?text=snow+leopard+tour",
+      "url": "/itineraries/snow-leopard-expedition-spiti"
+    },
+    {
+      "title": "Rajasthan Royal Heritage",
+      "image": "https://placehold.co/600x400/0b3d2e/d8b36a?text=Rajasthan",
+      "url": "/itineraries/rajasthan-heritage"
+    }
+  ]
+}
